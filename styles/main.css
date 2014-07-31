@@ -58,8 +58,8 @@ i.fa-envelope:before {
 i.fa-envelope-square:before {
   content: "\f199";
 }
-i.fa-file-text-o:before {
-  content: "\f0f6";
+i.fa-resume:before {
+  content: "\f15c";
 }
 i.fa-plus-circle:before {
   content: "\f055";
@@ -115,6 +115,12 @@ body h6 {
   font-family: sans-serif;
   margin: 0;
   text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 body h1.title,
 body h2.title,
@@ -127,7 +133,7 @@ body h6.title {
   font-size: 140px;
   line-height: 120px;
   max-width: 800px;
-  margin: 40px auto 20px auto;
+  margin: 80px auto 20px auto;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -163,34 +169,51 @@ body ul li {
 .divider {
   background-color: #333366;
 }
+.divider .bg-image {
+  background: url('../img/divider-bg.png') 50% 0 no-repeat;
+  height: 100%;
+  margin: 0 auto;
+  opacity: 0.55;
+  position: absolute;
+  width: 100%;
+}
 .divider .wrapper {
-  margin: 140px auto;
+  margin: 0 auto;
+  padding: 120px 0;
   text-align: center;
 }
 .divider .wrapper h1 {
-  color: #d2d2f9;
+  color: #ededfc;
   font-family: 'lora', serif;
-  font-size: 38px;
+  font-size: 40px;
   font-weight: normal;
   line-height: 36px;
 }
 .divider .wrapper a.btn {
+  background-color: #d2d2f9;
+  border-radius: 4px;
+  color: #333366;
   display: inline-block;
-  padding: 1px 16px;
-  height: 36px;
-  margin: 20px 0 0 0;
-  line-height: 34px;
-  font-size: 14px;
   font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  height: 36px;
+  letter-spacing: -0.5px;
+  line-height: 34px;
+  margin: 30px 0 0 0;
+  padding: 1px 16px;
   text-transform: uppercase;
   white-space: nowrap;
-  background-color: #d2d2f9;
-  color: #333366;
-  border-radius: 4px;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .divider .wrapper a.btn:hover {
-  background-color: #9999cc;
-  color: #000044;
+  background-color: #000044;
+  color: #d2d2f9;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
@@ -342,8 +365,8 @@ nav#main-nav ul li a:hover {
   transition: all 0.2s ease-in-out;
 }
 #header {
-  background: url('../img/intro-bg.png') 50% 0 no-repeat fixed;
-  height: 800px;
+  background: url('../img/intro-bg.png') 50% 0 repeat-x;
+  height: 700px;
   margin: 0 auto;
   position: relative;
   width: 100%;
@@ -480,10 +503,10 @@ nav#main-nav ul li a:hover {
   margin: 3px 0 0 0;
   text-transform: uppercase;
 }
-#portfolio #grid li:hover span {
+#portfolio #grid li a:hover article .info-wrap span {
   height: 100%;
 }
-#portfolio #grid li:hover .info h4 {
+#portfolio #grid li a:hover article .info-wrap .info h4 {
   color: #9999cc;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -491,7 +514,7 @@ nav#main-nav ul li a:hover {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-#portfolio #grid li:hover .info p {
+#portfolio #grid li a:hover article .info-wrap .info p {
   color: #9999cc;
   opacity: 0.75;
   -webkit-transition: all 0.2s ease-in-out;
@@ -501,7 +524,7 @@ nav#main-nav ul li a:hover {
   transition: all 0.2s ease-in-out;
 }
 #about {
-  padding-bottom: 60px;
+  padding-bottom: 80px;
 }
 #about p {
   font-size: 17px;
@@ -522,7 +545,7 @@ nav#main-nav ul li a:hover {
   background-color: #d2d2f9;
 }
 #contact .wrapper {
-  margin: 120px auto 260px auto;
+  margin: 80px auto 260px auto;
   max-width: 400px;
   text-align: center;
 }
@@ -555,7 +578,7 @@ nav#main-nav ul li a:hover {
 }
 #footer {
   background-color: #000044;
-  padding: 40px;
+  padding: 15px 40px;
 }
 #footer p {
   color: #d2d2f9;

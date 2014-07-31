@@ -108,8 +108,8 @@ i {
 	&.fa-envelope-square:before {
 	  content: "\f199";
 	}
-	&.fa-file-text-o:before {
-	  content: "\f0f6";
+	&.fa-resume:before {
+	  content: "\f15c";
 	}
 	&.fa-plus-circle:before {
 	  content: "\f055";
@@ -160,13 +160,14 @@ body {
 		font-family: sans-serif;
 		margin: 0;
 		text-rendering: geometricPrecision;
+		.font-smoothing;
 		&.title {
 			display: block;
 			font-family: 'znikomit',sans-serif;
 			font-size: 140px;
 			line-height: 120px;
 			max-width: @width-wrap;
-			margin: 40px auto 20px auto;
+			margin: 80px auto 20px auto;
 			position: relative;
 			text-align: center;
 			text-transform: uppercase;
@@ -203,32 +204,44 @@ body {
 }
 .divider {
 	background-color: @blue-dark;
+	.bg-image {
+		background: url('../img/divider-bg.png') 50% 0 no-repeat;
+		height: 100%;
+		margin: 0 auto;
+		opacity: 0.55;
+		position: absolute;
+		width: 100%;
+	}
 	.wrapper {
-		margin: 140px auto;
+		margin: 0 auto;
+		padding: 120px 0;
 		text-align: center;
 		h1 {
-			color: @blue-light;
+			color: @blue-lighter;
 			font-family: 'lora',serif;
-			font-size: 38px;
+			font-size: 40px;
 			font-weight: normal;
 			line-height: 36px;
 		}
 		a.btn {
+			background-color: @blue-light;
+			border-radius: 4px;
+			color: @blue-dark;
 			display: inline-block;
-			padding: 1px 16px;
-			height: 36px;
-			margin: 20px 0 0 0;
-			line-height: 34px;
-			font-size: 14px;
 			font-family: sans-serif;
+			font-size: 16px;
+			font-weight: bold;
+			height: 36px;
+			letter-spacing: -0.5px;
+			line-height: 34px;
+			margin: 30px 0 0 0;
+			padding: 1px 16px;
 			text-transform: uppercase;
 			white-space: nowrap;
-			background-color: @blue-light;
-			color: @blue-dark;
-			border-radius: 4px;
+			.font-smoothing;
 			&:hover {
-				background-color: @blue;
-				color: @blue-darker;
+				background-color: @blue-darker;
+				color: @blue-light;
 				.transition(all 0.2s ease-in-out);
 			}
 			i { margin: 0 4px 0 0; }
@@ -349,8 +362,8 @@ nav#main-nav {
 	}
 }
 #header {
-	background: url('../img/intro-bg.png') 50% 0 no-repeat fixed;
-	height: 800px;
+	background: url('../img/intro-bg.png') 50% 0 repeat-x;
+	height: 700px;
 	margin: 0 auto;
 	position: relative;
 	width: 100%;
@@ -471,18 +484,22 @@ nav#main-nav {
 						}
 					}
 				}
-			}
-			&:hover {
-				span { height: 100%; }
-				.info {
-					h4 {
-						color: @blue;
-						.transition(all 0.2s ease-in-out);
-					}
-					p {
-						color: @blue;
-						opacity: 0.75;
-						.transition(all 0.2s ease-in-out);
+				&:hover {
+					article {
+						.info-wrap {
+							span { height: 100%; }
+							.info {
+								h4 {
+									color: @blue;
+									.transition(all 0.2s ease-in-out);
+								}
+								p {
+									color: @blue;
+									opacity: 0.75;
+									.transition(all 0.2s ease-in-out);
+								}
+							}
+						}
 					}
 				}
 			}
@@ -490,7 +507,7 @@ nav#main-nav {
 	}
 }
 #about {
-	padding-bottom: 60px;
+	padding-bottom: 80px;
 	p {
 		font-size: 17px;
 		line-height: 28px;
@@ -510,7 +527,7 @@ nav#main-nav {
 #contact {
 	background-color: @blue-light;
 	.wrapper {
-		margin: 120px auto 260px auto;
+		margin: 80px auto 260px auto;
 		max-width: (@width-wrap / 2);
 		text-align: center;
 		h3 {
@@ -540,7 +557,7 @@ nav#main-nav {
 }
 #footer {
 	background-color: @blue-darker;
-	padding: 40px;
+	padding: 15px 40px;
 	p {
 		color: @blue-light;
 		font-family: sans-serif;
