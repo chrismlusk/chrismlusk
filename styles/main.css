@@ -133,7 +133,7 @@ body h6.title {
   font-size: 140px;
   line-height: 120px;
   max-width: 800px;
-  margin: 80px auto 20px auto;
+  margin: 60px auto 20px auto;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -409,9 +409,6 @@ nav#main-nav ul li a:hover {
 #header img {
   display: block;
   margin: 0 auto 25px auto;
-  height: 175px;
-  width: 415px;
-  background-color: #bbb;
 }
 #header h1 {
   font-family: 'passionone', sans-serif;
@@ -461,9 +458,14 @@ nav#main-nav ul li a:hover {
 }
 #portfolio #grid li a article .image img {
   display: block;
+  max-height: 500px;
   max-width: 420px;
   width: 100%;
-  background-color: #bbb;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 #portfolio #grid li a article .info-wrap {
   max-height: 120px;
@@ -503,6 +505,13 @@ nav#main-nav ul li a:hover {
   margin: 3px 0 0 0;
   text-transform: uppercase;
 }
+#portfolio #grid li a:hover article .image img {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25);
+}
 #portfolio #grid li a:hover article .info-wrap span {
   height: 100%;
 }
@@ -537,15 +546,15 @@ nav#main-nav ul li a:hover {
   font-family: 'lora', serif;
   font-weight: bold;
   font-size: 34px;
-  line-height: 38px;
-  margin: 20px auto;
+  line-height: 40px;
+  margin: 18px auto;
   max-width: 325px;
 }
 #contact {
   background-color: #d2d2f9;
 }
 #contact .wrapper {
-  margin: 80px auto 260px auto;
+  margin: 80px auto 300px auto;
   max-width: 400px;
   text-align: center;
 }
