@@ -179,7 +179,7 @@ body ul li {
 }
 .divider .wrapper {
   margin: 0 auto;
-  padding: 120px 0;
+  padding: 100px 0;
   text-align: center;
 }
 .divider .wrapper h1 {
@@ -520,13 +520,13 @@ nav#main-nav ul li a:hover {
   top: 0;
   left: 0;
   background: url("../img/assets/overlay.png");
-  opacity: 0.5;
+  opacity: 0.6;
 }
 #portfolio #grid li a:hover article .info-wrap span {
   height: 100%;
 }
 #portfolio #grid li a:hover article .info-wrap .info h4 {
-  color: #9999cc;
+  color: #d2d2f9;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
@@ -534,7 +534,7 @@ nav#main-nav ul li a:hover {
   transition: all 0.2s ease-in-out;
 }
 #portfolio #grid li a:hover article .info-wrap .info p {
-  color: #9999cc;
+  color: #d2d2f9;
   opacity: 0.75;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
