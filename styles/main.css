@@ -506,11 +506,21 @@ nav#main-nav ul li a:hover {
   text-transform: uppercase;
 }
 #portfolio #grid li a:hover article .image img {
-  -webkit-transform: scale(1.25);
-  -moz-transform: scale(1.25);
-  -ms-transform: scale(1.25);
-  -o-transform: scale(1.25);
-  transform: scale(1.25);
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transform: scale(1.15);
+}
+#portfolio #grid li a:hover article .image:after {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url("../img/assets/overlay.png");
+  opacity: 0.5;
 }
 #portfolio #grid li a:hover article .info-wrap span {
   height: 100%;
