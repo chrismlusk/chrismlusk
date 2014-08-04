@@ -306,14 +306,14 @@ nav#main-nav ul li a {
   font-size: 20px;
   padding: 10px 24px;
   position: relative;
-}
-nav#main-nav ul li a:hover {
-  background-color: #9999cc;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+nav#main-nav ul li a:hover {
+  background-color: #9999cc;
 }
 #footer {
   background-color: #26264c;
@@ -349,14 +349,14 @@ nav#main-nav ul li a:hover {
   color: #9999cc;
   font-size: 28px;
   line-height: 24px;
-}
-.index #home #main-social ul li a:hover i {
-  color: #26264c;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+.index #home #main-social ul li a:hover i {
+  color: #26264c;
 }
 .index #home h3 {
   font-family: 'lora', serif;
@@ -457,16 +457,21 @@ nav#main-nav ul li a:hover {
   font-weight: bold;
   font-size: 24px;
   line-height: 24px;
-}
-.index #portfolio #grid li a article .info-wrap .info h4.archive {
-  font-family: 'znikomit', sans-serif;
-  font-size: 26px;
-  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .index #portfolio #grid li a article .info-wrap .info p {
   font-size: 10px;
   margin: 3px 0 0 0;
   text-transform: uppercase;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .index #portfolio #grid li a:hover article .image img {
   -webkit-transform: scale(1.15);
@@ -492,22 +497,12 @@ nav#main-nav ul li a:hover {
 }
 .index #portfolio #grid li a:hover article .info-wrap .info h4 {
   color: #d2d2f9;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
 }
 .index #portfolio #grid li a:hover article .info-wrap .info p {
   color: #d2d2f9;
   -webkit-opacity: 0.75;
   -moz-opacity: 0.75;
   opacity: 0.75;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
 }
 .index #about {
   padding-bottom: 80px;
@@ -553,14 +548,14 @@ nav#main-nav ul li a:hover {
 .index #contact .wrapper ul li a i {
   color: #9999cc;
   font-size: 40px;
-}
-.index #contact .wrapper ul li a i:hover {
-  color: #26264c;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+.index #contact .wrapper ul li a i:hover {
+  color: #26264c;
 }
 .index .divider {
   background-color: #333366;
@@ -608,15 +603,15 @@ nav#main-nav ul li a:hover {
   -o-font-smoothing: antialiased;
   font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-.index .divider .wrapper a.btn:hover {
-  background-color: #26264c;
-  color: #d2d2f9;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+.index .divider .wrapper a.btn:hover {
+  background-color: #26264c;
+  color: #d2d2f9;
 }
 .index .divider .wrapper a.btn i {
   margin: 0 4px 0 0;
