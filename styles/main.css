@@ -64,6 +64,12 @@ i.fa-phone:before {
 i.fa-location:before {
   content: "\f041";
 }
+i.fa-education:before {
+  content: "\f19d";
+}
+i.fa-star:before {
+  content: "\f005";
+}
 i.fa-resume:before {
   content: "\f15c";
 }
