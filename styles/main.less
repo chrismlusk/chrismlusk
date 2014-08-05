@@ -133,11 +133,17 @@ i {
 	&.fa-location:before {
 	  content: "\f041";
 	}
+	&.fa-experience:before {
+	  content: "\f0f2";
+	}
 	&.fa-education:before {
 	  content: "\f19d";
 	}
 	&.fa-star:before {
 	  content: "\f005";
+	}
+	&.fa-users:before {
+	  content: "\f0c0";
 	}
 	&.fa-resume:before {
 	  content: "\f15c";
@@ -618,6 +624,31 @@ nav#main-nav {
 				overflow: auto;
 				&:last-child { 
 					border-bottom: 1px solid @blue-light;
+				}
+				.title {
+					float: left;
+					text-align: center;
+					margin-top: 20px;
+					width: 210px;
+					i {
+						background-color: @blue-lighter;
+						color: @blue-light;
+						display: block;
+						font-size: 38px;
+						line-height: 70px;
+						margin: 0 auto;
+						width: 75px;
+						height: 75px;
+						.border-radius(50%);
+					}
+					span {
+						color: @blue-light;
+						font-family: 'Source Sans Pro',sans-serif;
+						font-size: 18px;
+						font-weight: 100;
+						text-transform: uppercase;
+
+					}
 				}
 				.entry {
 					border-bottom: 1px solid @blue-lighter;

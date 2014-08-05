@@ -64,11 +64,17 @@ i.fa-phone:before {
 i.fa-location:before {
   content: "\f041";
 }
+i.fa-experience:before {
+  content: "\f0f2";
+}
 i.fa-education:before {
   content: "\f19d";
 }
 i.fa-star:before {
   content: "\f005";
+}
+i.fa-users:before {
+  content: "\f0c0";
 }
 i.fa-resume:before {
   content: "\f15c";
@@ -642,6 +648,35 @@ nav#main-nav ul li a:hover {
 }
 .resume .section .wrapper .panel:last-child {
   border-bottom: 1px solid #d2d2f9;
+}
+.resume .section .wrapper .panel .title {
+  float: left;
+  text-align: center;
+  margin-top: 20px;
+  width: 210px;
+}
+.resume .section .wrapper .panel .title i {
+  background-color: #ededfc;
+  color: #d2d2f9;
+  display: block;
+  font-size: 38px;
+  line-height: 70px;
+  margin: 0 auto;
+  width: 75px;
+  height: 75px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.resume .section .wrapper .panel .title span {
+  color: #d2d2f9;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  text-transform: uppercase;
 }
 .resume .section .wrapper .panel .entry {
   border-bottom: 1px solid #ededfc;
