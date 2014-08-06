@@ -382,6 +382,7 @@ nav#main-nav ul li a:hover {
 .index #home img {
   display: block;
   margin: 0 auto 25px auto;
+  max-width: 415px;
 }
 .index #home h1 {
   font-family: 'passionone', sans-serif;
@@ -738,9 +739,15 @@ nav#main-nav ul li a:hover {
 .resume header {
   background-color: #333366;
 }
-.resume header .image img {
+.resume header .image {
   float: left;
-  margin: -15px 40px -15px 0;
+  margin-left: -40px;
+  text-align: center;
+  width: 210px;
+}
+.resume header .image img {
+  margin: -15px 0;
+  max-width: 130px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;

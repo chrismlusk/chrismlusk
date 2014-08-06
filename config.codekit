@@ -57,6 +57,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/lusk-main.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 163161,
+		"inputAbbreviatedPath": "\/img\/lusk-main.jpg",
+		"outputAbbreviatedPath": "\/img\/lusk-main.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/lusk-profile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 119114,
+		"inputAbbreviatedPath": "\/img\/lusk-profile.jpg",
+		"outputAbbreviatedPath": "\/img\/lusk-profile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/portfolio\/full\/hsc-info_2012.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
