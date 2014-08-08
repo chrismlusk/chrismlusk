@@ -612,6 +612,7 @@ nav#main-nav {
 .resume {
 	background-color: darken(@blue-lightest,2%);
 	.section {
+		max-width: 950px;
 		padding: 40px 0;
 		.wrapper {
 			padding: 0 40px;
@@ -693,6 +694,49 @@ nav#main-nav {
 						text-transform: uppercase;
 						.opacity(0.75);
 					}
+					.org-details {
+						//display: none;
+						margin: 20px 0 0 0;
+						.transform(all 0.2s ease-in-out);
+						p {
+							color: @blue-dark;
+							font-size: 16px;
+							line-height: 19px;
+						}
+						ul {
+							font-family: 'Source Sans Pro',sans-serif;
+							margin: 15px 0 0 0;
+							li {
+								color: @blue-dark;
+								font-size: 14px;
+								line-height: 16px;
+								margin: 0 0 2px 0;
+								padding: 0 0 0 120px;
+								&:last-child { margin-bottom: 0; }
+								i {
+									color: lighten(@blue, 10%);
+									position: absolute;
+										left: 0;
+										font-family: 'Source Sans Pro',sans-serif;
+									font-size: 14px;
+									font-weight: bold;
+									line-height: 16px;
+									&:before { 
+										font-family: 'FontAwesome';
+										margin-right: 3px;
+									}
+								}
+								a {
+									color: lighten(@blue-dark, 25%);
+									&:hover {
+										text-decoration: underline;
+									}
+								}
+							}
+						}
+						
+					}
+					
 				}
 			}
 		}

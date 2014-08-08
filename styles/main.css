@@ -633,6 +633,7 @@ nav#main-nav ul li a:hover {
   background-color: #ebebff;
 }
 .resume .section {
+  max-width: 950px;
   padding: 40px 0;
 }
 .resume .section .wrapper {
@@ -735,6 +736,52 @@ nav#main-nav ul li a:hover {
   -webkit-opacity: 0.75;
   -moz-opacity: 0.75;
   opacity: 0.75;
+}
+.resume .section .wrapper .panel .entry .org-details {
+  margin: 20px 0 0 0;
+  -webkit-transform: all 0.2s ease-in-out;
+  -moz-transform: all 0.2s ease-in-out;
+  -ms-transform: all 0.2s ease-in-out;
+  -o-transform: all 0.2s ease-in-out;
+  transform: all 0.2s ease-in-out;
+}
+.resume .section .wrapper .panel .entry .org-details p {
+  color: #393973;
+  font-size: 16px;
+  line-height: 19px;
+}
+.resume .section .wrapper .panel .entry .org-details ul {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 15px 0 0 0;
+}
+.resume .section .wrapper .panel .entry .org-details ul li {
+  color: #393973;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0 0 2px 0;
+  padding: 0 0 0 120px;
+}
+.resume .section .wrapper .panel .entry .org-details ul li:last-child {
+  margin-bottom: 0;
+}
+.resume .section .wrapper .panel .entry .org-details ul li i {
+  color: #bbbbdd;
+  position: absolute;
+  left: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 16px;
+}
+.resume .section .wrapper .panel .entry .org-details ul li i:before {
+  font-family: 'FontAwesome';
+  margin-right: 3px;
+}
+.resume .section .wrapper .panel .entry .org-details ul li a {
+  color: #7272b9;
+}
+.resume .section .wrapper .panel .entry .org-details ul li a:hover {
+  text-decoration: underline;
 }
 .resume header {
   background-color: #333366;
