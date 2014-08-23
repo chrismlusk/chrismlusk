@@ -153,7 +153,7 @@ body h6.title {
   font-size: 140px;
   line-height: 120px;
   max-width: 800px;
-  margin: 60px auto 20px auto;
+  margin: 80px auto 20px auto;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -338,8 +338,10 @@ nav#main-nav ul li a:hover {
   font-weight: 100;
 }
 .index #home {
-  background: url('../img/intro-bg.png') 50% 0 repeat-x;
-  height: 700px;
+  background: url('../img/intro-bg.png');
+  background-position: 50% 100%;
+  background-repeat: repeat-x;
+  height: 960px;
   margin: 0 auto;
   position: relative;
   width: 100%;
@@ -386,8 +388,9 @@ nav#main-nav ul li a:hover {
 }
 .index #home h1 {
   font-family: 'passionone', sans-serif;
-  font-size: 110px;
-  line-height: 78px;
+  font-size: 100px;
+  line-height: 70px;
+  margin-top: 0px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -518,6 +521,7 @@ nav#main-nav ul li a:hover {
   opacity: 0.75;
 }
 .index #about {
+  background-color: #d2d2f9;
   padding-bottom: 80px;
 }
 .index #about p {
@@ -570,22 +574,34 @@ nav#main-nav ul li a:hover {
 .index #contact .wrapper ul li a i:hover {
   color: #26264c;
 }
+.index #archive {
+  width: 100%;
+  height: 400px;
+  background-image: url('../img/divider-desk.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top center;
+}
+.index #resume {
+  width: 100%;
+  height: 400px;
+  background-image: url('../img/divider-work.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top center;
+}
 .index .divider {
   background-color: #333366;
 }
-.index .divider .bg-image {
-  background: url('../img/divider-bg.png') 50% 0 no-repeat;
-  height: 100%;
-  margin: 0 auto;
-  position: absolute;
-  width: 100%;
-  -webkit-opacity: 0.55;
-  -moz-opacity: 0.55;
-  opacity: 0.55;
-}
 .index .divider .wrapper {
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 150px 0 0 0;
   text-align: center;
 }
 .index .divider .wrapper h1 {
@@ -594,6 +610,7 @@ nav#main-nav ul li a:hover {
   font-size: 40px;
   font-weight: normal;
   line-height: 36px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
 }
 .index .divider .wrapper a.btn {
   background-color: #d2d2f9;

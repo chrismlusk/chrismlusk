@@ -6,8 +6,14 @@
 <head><!-- @import "includes/head.kit" --></head>
 <body class="index">
 	<!-- @import "includes/main-nav.kit" -->
-	<header id="home" class="section" data-speed="6" data-type="background">
-		<div id="main-social">
+	<header id="home" class="section"
+		data--60p-top="background-color: rgb(237,237,254)"
+		data-center-bottom="background-color: rgb(210,210,249)"
+	>
+		<div id="main-social"
+			data-40-top="margin-top: 0px"
+			data--500-top="margin-top: 300px"
+		>
 			<ul class="horiz-list">
 				<li>
 					<a href="http://twitter.com/chrismlusk" target="_blank">
@@ -22,9 +28,18 @@
 			</ul>
 		</div>
 		<div class="wrapper">
-			<h3>Hi, I'm Chris. I like telling stories.</h3>
-			<img src="img/lusk-main.jpg">
-			<h1>
+			<h3
+				data-40-top="margin-top: 40px"
+				data--500-top="margin-top: 300px"
+			>Hi, I'm Chris. I like telling stories.</h3>
+			<img src="img/lusk-main.jpg"
+				data-80-top="margin-top: 0px; opacity[swing]: 1"
+				data--300-top="margin-top: 20px; opacity[swing]: 1"
+			>
+			<h1
+				data-40-top="margin-top: 0px; line-height: 70px; opacity[swing]: 1"
+				data--650-top="margin-top: 180px; line-height: 90px; opacity[swing]: 0"
+			>
 				Designer<span>.</span><br />
 				Journalist<span>.</span><br />
 				Developer<span>.</span><br />
@@ -167,7 +182,6 @@
 		</div>
 	</section>
 	<section id="archive" class="section divider">
-		<div class="bg-image" data-speed="6" data-type="background"></div>
 		<div class="wrapper">
 			<h1>See more examples of my work</h1>
 			<a href="#" class="btn"><i class="fa fa-plus-circle"></i>Archive</a>
@@ -177,24 +191,29 @@
 		<h1 class="title">ABOUT</h1>
 		<div class="wrapper">
 			<p>I like to explore ways to create experiences that enhance meaning, motivation and context. I believe that designers and developers are essential to storytelling and should be actively involved in the process &mdash; from planning to presentation.</p>
-			<blockquote>
-				Based on strategy<br />
+			<blockquote
+				data-100-bottom="transform[swing]: scale(0.5); opacity: 0"
+				data--100-bottom="transform[swing]: scale(1); opacity: 1"
+			>
+				Focused on strategy<br />
 				Driven by creativity
 			</blockquote>
-			<p>I have worked as a print and digital designer at the Orange County Register, an online editor at The Oklahoman, and a copy editor at the Dallas Morning News. I graduated in 2012 from the University of Oklahoma, where I was editor of the campus newspaper, The Oklahoma Daily. This job introduced me to the visual side of journalism, and I became enthralled with the power of design. I began teaching myself web design in my free time after graduation and, since then, my interest level has grown so much that I am now studying programming at Coding Campus.</p>
+			<p>I have worked as a print and digital designer at the Orange County Register, an online editor at The Oklahoman, and a copy editor at the Dallas Morning News. I graduated in 2012 from the University of Oklahoma, where I was editor of the campus newspaper, The Oklahoma Daily. This job introduced me to the visual side of journalism, and I became enthralled with the power of design. I began teaching myself web design and programming in my free time after I graduated and, since then, I have begun working toward career where I can combine my love for all three things: design, journalism and development.</p>
 		</div>
 	</section>
 	<section id="resume" class="section divider">
-		<div class="bg-image" data-speed="6" data-type="background"></div>
-			<div class="wrapper">
-				<h1>Learn more about my experience</h1>
-				<a href="resume.html" class="btn"><i class="fa fa-plus-circle"></i>Resume</a>
-			</div>
+		<div class="wrapper">
+			<h1>Learn more about my experience</h1>
+			<a href="resume.html" class="btn"><i class="fa fa-plus-circle"></i>Resume</a>
+		</div>
 	</section>
 	<section id="contact" class="section">
 		<h1 class="title">CONTACT</h1>
-		<div class="wrapper">
-			<h3>chrismlusk@gmail.com</h3>
+		<div class="wrapper"
+			data-100-bottom="transform[swing]: scale(0.5); opacity: 0"
+			data--100-bottom="transform[swing]: scale(1); opacity: 1"
+		>
+			<h3><a href="mailto:chrismlusk@gmail.com?subject=From%20Your%20Website">chrismlusk@gmail.com</a></h3>
 			<ul class="horiz-list">
 				<li>
 					<a href="http://twitter.com/chrismlusk" target="_blank">
@@ -230,5 +249,6 @@
 		</div>
 	</section>
 	<!-- @import "includes/footer.kit" -->
+	<!-- @import "includes/scripts.kit" -->
 </body>
 </html>

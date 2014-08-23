@@ -1,1 +1,0 @@
-$(document).ready(function(){var o=$(window);$('[data-type="background"]').each(function(){var n=$(this);$(window).scroll(function(){var a=-(o.scrollTop()/n.data("speed")),c="50% "+a+"px";n.css({backgroundPosition:c})})})});

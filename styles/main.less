@@ -14,6 +14,12 @@
 
 //--- MIXINS -----------------
 //----------------------------
+.background-size (@size) {
+	-webkit-background-size: 	@size;
+	-moz-background-size: 		@size;
+	-o-background-size: 		@size;
+	background-size: 			@size;
+}
 .border-radius (@radius) {
 	-webkit-border-radius: @radius;
 	-moz-border-radius:    @radius;
@@ -40,6 +46,9 @@
 	-webkit-opacity: @opacity;
 	-moz-opacity: @opacity;
 	opacity: @opacity;
+}
+.text-shadow (@string: 0 1px 3px rgba(0, 0, 0, 0.25)) {
+	text-shadow: @string;
 }
 .transition(@transition){
 	-webkit-transition: @transition;
@@ -204,7 +213,7 @@ body {
 			font-size: 140px;
 			line-height: 120px;
 			max-width: @width-wrap;
-			margin: 60px auto 20px auto;
+			margin: 80px auto 20px auto;
 			position: relative;
 			text-align: center;
 			text-transform: uppercase;
@@ -364,8 +373,10 @@ nav#main-nav {
 }
 .index {
 	#home {
-		background: url('../img/intro-bg.png') 50% 0 repeat-x;
-		height: 700px;
+		background: url('../img/intro-bg.png');
+		background-position: 50% 100%;
+		background-repeat: repeat-x;
+		height: 960px;
 		margin: 0 auto;
 		position: relative;
 		width: 100%;
@@ -409,8 +420,9 @@ nav#main-nav {
 		}
 		h1 {
 			font-family: 'passionone',sans-serif;
-			font-size: 110px;
-			line-height: 78px;
+			font-size: 100px;
+			line-height: 70px;
+			margin-top: 0px;
 			text-align: center;
 			text-transform: uppercase;
 			span {
@@ -514,6 +526,7 @@ nav#main-nav {
 		}
 	}
 	#about {
+		background-color: @blue-light;
 		padding-bottom: 80px;
 		p {
 			font-size: 18px;
@@ -562,19 +575,27 @@ nav#main-nav {
 			}
 		}
 	}
+	#archive {
+		width: 100%;
+		height: 400px;
+		background-image: url('../img/divider-desk.jpg');
+		.background-size(cover);
+		background-attachment: fixed;
+		background-position: top center;
+	}
+	#resume {
+		width: 100%;
+		height: 400px;
+		background-image: url('../img/divider-work.jpg');
+		.background-size(cover);
+		background-attachment: fixed;
+		background-position: top center;	
+	}
 	.divider {
 		background-color: @blue-darker;
-		.bg-image {
-			background: url('../img/divider-bg.png') 50% 0 no-repeat;
-			height: 100%;
-			margin: 0 auto;
-			position: absolute;
-			width: 100%;
-			.opacity(0.55);
-		}
 		.wrapper {
 			margin: 0 auto;
-			padding: 100px 0;
+			padding: 150px 0 0 0;
 			text-align: center;
 			h1 {
 				color: @blue-lighter;
@@ -582,6 +603,7 @@ nav#main-nav {
 				font-size: 40px;
 				font-weight: normal;
 				line-height: 36px;
+				.text-shadow;
 			}
 			a.btn {
 				background-color: @blue-light;
