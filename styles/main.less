@@ -50,19 +50,27 @@
 .text-shadow (@string: 0 1px 3px rgba(0, 0, 0, 0.25)) {
 	text-shadow: @string;
 }
-.transition(@transition){
+.transition (@transition){
 	-webkit-transition: @transition;
 	-moz-transition: @transition;
 	-ms-transition: @transition;
 	-o-transition: @transition;
 	transition: @transition;
 }
-.transform(@transform){
+.transform (@transform){
 	-webkit-transform: @transform;
 	-moz-transform: @transform;
 	-ms-transform: @transform;
 	-o-transform: @transform;
 	transform: @transform;
+}
+.user-select (@value) {
+	-webkit-touch-callout: @value;
+	-webkit-user-select: @value;
+	-khtml-user-select: @value;
+	-moz-user-select: @value;
+	-ms-user-select: @value;
+	user-select: @value;
 }
 
 
@@ -208,6 +216,7 @@ body {
 		text-rendering: geometricPrecision;
 		.font-smoothing;
 		&.title {
+			cursor: default;
 			display: block;
 			font-family: 'znikomit',sans-serif;
 			font-size: 140px;
@@ -217,6 +226,7 @@ body {
 			position: relative;
 			text-align: center;
 			text-transform: uppercase;
+			.user-select(none);
 		}
 	}
 	p {
@@ -362,13 +372,18 @@ nav#main-nav {
 	}
 }
 #footer {
-	background-color: @blue-darkest;
-	padding: 15px 40px;
+	background-color: rgba(245,245,255,0.5);
+	padding: 15px;
+	position: absolute;
+		bottom: 0;
+		left: 0;
+	width: 100%;
 	p {
-		color: @blue-light;
+		color: @blue;
 		font-family: sans-serif;
 		font-size: 11px;
 		font-weight: 100;
+		text-align: center;
 	}
 }
 .index {
@@ -497,14 +512,14 @@ nav#main-nav {
 							.image {
 								img { .transform(scale(1.15)); }
 								&:after {
-									background: url("../img/assets/overlay.png");
+									background: url("../img/overlay.png");
 									content: " ";
 									height: 100%;
 									position: absolute;
 										top: 0;
 										left: 0;
 									width: 100%;
-									.opacity(0.6);
+									.opacity(0.5);
 								}
 							}
 							.info-wrap {
@@ -545,26 +560,40 @@ nav#main-nav {
 		}
 	}
 	#contact {
+		background: url('../img/footer-bg.png');
+		background-position: 50% 600%;
+		background-repeat: repeat-x;
+		height: 640px;
+		margin: 0 auto;
+		position: relative;
+		width: 100%;
 		background-color: @blue-light;
 		.wrapper {
-			margin: 80px auto 300px auto;
-			max-width: (@width-wrap / 2);
+			margin: 40px auto 80px auto;
+			max-width: 300px;
 			text-align: center;
 			h3 {
 				font-family: 'lora',serif;
-				font-size: 34px;
+				font-size: 26px;
+				a {
+					color: @blue;
+					.transition(all 0.2s ease-in-out);
+					&:hover {
+						color: @blue-darkest;
+					}
+				}
 			}
 			ul {
 				border-top: 1px solid @blue;
 				margin-top: 4px;
 				padding-top: 12px;
 				li {
-					margin: 0 10px 0 0;
+					margin: 0 8px 0 0;
 					&:last-child { margin: 0; }
 					a {
 						i {
 							color: @blue;
-							font-size: 40px;
+							font-size: 30px;
 							.transition(all 0.2s ease-in-out);
 							&:hover {
 								color: @blue-darkest;
@@ -578,7 +607,7 @@ nav#main-nav {
 	#archive {
 		width: 100%;
 		height: 400px;
-		background-image: url('../img/divider-desk.jpg');
+		background-image: url('../img/divider-archive.jpg');
 		.background-size(cover);
 		background-attachment: fixed;
 		background-position: top center;
@@ -586,7 +615,7 @@ nav#main-nav {
 	#resume {
 		width: 100%;
 		height: 400px;
-		background-image: url('../img/divider-work.jpg');
+		background-image: url('../img/divider-resume.jpg');
 		.background-size(cover);
 		background-attachment: fixed;
 		background-position: top center;	
@@ -606,25 +635,25 @@ nav#main-nav {
 				.text-shadow;
 			}
 			a.btn {
-				background-color: @blue-light;
-				border-radius: 4px;
-				color: @blue-darker;
+				border: 2px solid @blue-lighter;
+				color: @blue-lighter;
 				display: inline-block;
 				font-family: 'Source Sans Pro',sans-serif;
 				font-size: 17px;
 				font-weight: bold;
 				height: 36px;
 				letter-spacing: -0.5px;
-				line-height: 34px;
+				line-height: 30px;
 				margin: 30px 0 0 0;
 				padding: 1px 16px;
 				text-transform: uppercase;
 				white-space: nowrap;
+				.border-radius(5px);
 				.font-smoothing;
 				.transition(all 0.2s ease-in-out);
 				&:hover {
-					background-color: @blue-darkest;
-					color: @blue-light;
+					background-color: @blue-lighter;
+					color: @blue-darkest;
 				}
 				i { margin: 0 4px 0 0; }
 			}

@@ -148,6 +148,7 @@ body h3.title,
 body h4.title,
 body h5.title,
 body h6.title {
+  cursor: default;
   display: block;
   font-family: 'znikomit', sans-serif;
   font-size: 140px;
@@ -157,6 +158,12 @@ body h6.title {
   position: relative;
   text-align: center;
   text-transform: uppercase;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 body p {
   font-family: 'Source Sans Pro', sans-serif;
@@ -328,14 +335,19 @@ nav#main-nav ul li a:hover {
   background-color: #9999cc;
 }
 #footer {
-  background-color: #26264c;
-  padding: 15px 40px;
+  background-color: rgba(245, 245, 255, 0.5);
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 #footer p {
-  color: #d2d2f9;
+  color: #9999cc;
   font-family: sans-serif;
   font-size: 11px;
   font-weight: 100;
+  text-align: center;
 }
 .index #home {
   background: url('../img/intro-bg.png');
@@ -497,16 +509,16 @@ nav#main-nav ul li a:hover {
   transform: scale(1.15);
 }
 .index #portfolio #grid li a:hover article .image:after {
-  background: url("../img/assets/overlay.png");
+  background: url("../img/overlay.png");
   content: " ";
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  -webkit-opacity: 0.6;
-  -moz-opacity: 0.6;
-  opacity: 0.6;
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
 }
 .index #portfolio #grid li a:hover article .info-wrap span {
   height: 100%;
@@ -540,16 +552,34 @@ nav#main-nav ul li a:hover {
   max-width: 325px;
 }
 .index #contact {
+  background: url('../img/footer-bg.png');
+  background-position: 50% 600%;
+  background-repeat: repeat-x;
+  height: 640px;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
   background-color: #d2d2f9;
 }
 .index #contact .wrapper {
-  margin: 80px auto 300px auto;
-  max-width: 400px;
+  margin: 40px auto 80px auto;
+  max-width: 300px;
   text-align: center;
 }
 .index #contact .wrapper h3 {
   font-family: 'lora', serif;
-  font-size: 34px;
+  font-size: 26px;
+}
+.index #contact .wrapper h3 a {
+  color: #9999cc;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.index #contact .wrapper h3 a:hover {
+  color: #26264c;
 }
 .index #contact .wrapper ul {
   border-top: 1px solid #9999cc;
@@ -557,14 +587,14 @@ nav#main-nav ul li a:hover {
   padding-top: 12px;
 }
 .index #contact .wrapper ul li {
-  margin: 0 10px 0 0;
+  margin: 0 8px 0 0;
 }
 .index #contact .wrapper ul li:last-child {
   margin: 0;
 }
 .index #contact .wrapper ul li a i {
   color: #9999cc;
-  font-size: 40px;
+  font-size: 30px;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
@@ -577,7 +607,7 @@ nav#main-nav ul li a:hover {
 .index #archive {
   width: 100%;
   height: 400px;
-  background-image: url('../img/divider-desk.jpg');
+  background-image: url('../img/divider-archive.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -588,7 +618,7 @@ nav#main-nav ul li a:hover {
 .index #resume {
   width: 100%;
   height: 400px;
-  background-image: url('../img/divider-work.jpg');
+  background-image: url('../img/divider-resume.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -613,20 +643,25 @@ nav#main-nav ul li a:hover {
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
 }
 .index .divider .wrapper a.btn {
-  background-color: #d2d2f9;
-  border-radius: 4px;
-  color: #333366;
+  border: 2px solid #ededfc;
+  color: #ededfc;
   display: inline-block;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 17px;
   font-weight: bold;
   height: 36px;
   letter-spacing: -0.5px;
-  line-height: 34px;
+  line-height: 30px;
   margin: 30px 0 0 0;
   padding: 1px 16px;
   text-transform: uppercase;
   white-space: nowrap;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   -ms-font-smoothing: antialiased;
@@ -640,8 +675,8 @@ nav#main-nav ul li a:hover {
   transition: all 0.2s ease-in-out;
 }
 .index .divider .wrapper a.btn:hover {
-  background-color: #26264c;
-  color: #d2d2f9;
+  background-color: #ededfc;
+  color: #26264c;
 }
 .index .divider .wrapper a.btn i {
   margin: 0 4px 0 0;
