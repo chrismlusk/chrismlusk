@@ -452,11 +452,35 @@ nav#main-nav ul li a:hover {
   max-height: 500px;
   max-width: 420px;
   width: 100%;
+  -webkit-filter: grayscale(100%);
+  -webkit-filter: grayscale(1);
+  -moz-filter: greyacale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: #808080;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+.index #portfolio #grid li a article .image:after {
+  background-color: #393973;
+  content: " ";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-opacity: 0.4;
+  -moz-opacity: 0.4;
+  opacity: 0.4;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .index #portfolio #grid li a article .info-wrap {
   max-height: 120px;
@@ -502,23 +526,23 @@ nav#main-nav ul li a:hover {
   transition: all 0.2s ease-in-out;
 }
 .index #portfolio #grid li a:hover article .image img {
-  -webkit-transform: scale(1.15);
-  -moz-transform: scale(1.15);
-  -ms-transform: scale(1.15);
-  -o-transform: scale(1.15);
-  transform: scale(1.15);
+  -webkit-filter: grayscale(0%);
+  -webkit-filter: grayscale(0);
+  -moz-filter: greyacale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  filter: grayscale(0%);
+  filter: none;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
 }
 .index #portfolio #grid li a:hover article .image:after {
-  background: url("../img/overlay.png");
-  content: " ";
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  -webkit-opacity: 0.5;
-  -moz-opacity: 0.5;
-  opacity: 0.5;
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
 }
 .index #portfolio #grid li a:hover article .info-wrap span {
   height: 100%;
@@ -553,9 +577,9 @@ nav#main-nav ul li a:hover {
 }
 .index #contact {
   background: url('../img/footer-bg.png');
-  background-position: 50% 600%;
+  background-position: 50% 350%;
   background-repeat: repeat-x;
-  height: 640px;
+  height: 700px;
   margin: 0 auto;
   position: relative;
   width: 100%;

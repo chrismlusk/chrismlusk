@@ -42,6 +42,15 @@
 	font-smoothing: @type;
 	-moz-osx-font-smoothing: @osx-type;
 }
+.grayscale (@a, @b, @c) {
+	-webkit-filter: grayscale(@a);
+	-webkit-filter: grayscale(@b);
+	-moz-filter: greyacale(@a);
+	-ms-filter: grayscale(@a);
+	-o-filter: grayscale(@a);
+	filter: grayscale(@a);
+	filter: (@c);
+}
 .opacity (@opacity) {
 	-webkit-opacity: @opacity;
 	-moz-opacity: @opacity;
@@ -472,7 +481,19 @@ nav#main-nav {
 								max-height: 500px;
 								max-width: 420px;
 								width: 100%;
+								.grayscale(100%,1,gray);
 								.transition(all 0.2s ease-in-out);
+							}
+							&:after {
+								background-color: @blue-dark;
+								content: " ";
+								height: 100%;
+								position: absolute;
+									top: 0;
+									left: 0;
+								width: 100%;
+								.opacity(0.4);
+								.transition(all 0.3s ease-in-out);
 							}
 						}
 						.info-wrap {
@@ -510,16 +531,12 @@ nav#main-nav {
 					&:hover {
 						article {
 							.image {
-								img { .transform(scale(1.15)); }
+								img { 
+									.grayscale(0%,0,none);
+									.transform(scale(1.1));
+								}
 								&:after {
-									background: url("../img/overlay.png");
-									content: " ";
-									height: 100%;
-									position: absolute;
-										top: 0;
-										left: 0;
-									width: 100%;
-									.opacity(0.5);
+									.opacity(0);
 								}
 							}
 							.info-wrap {
@@ -561,9 +578,9 @@ nav#main-nav {
 	}
 	#contact {
 		background: url('../img/footer-bg.png');
-		background-position: 50% 600%;
+		background-position: 50% 350%;
 		background-repeat: repeat-x;
-		height: 640px;
+		height: 700px;
 		margin: 0 auto;
 		position: relative;
 		width: 100%;
