@@ -2,10 +2,42 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if lt IE 9]>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+<![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head><!-- @import "includes/head.kit" --></head>
-<body class="index">
+<body>
 	<!-- @import "includes/main-nav.kit" -->
+	<nav id="mobile-nav">
+		<ul>
+			<li>
+				<a href="#home">
+					<i class="fa fa-home"></i>
+					HOME
+				</a>
+			</li>
+			<li>
+				<a href="#portfolio">
+					<i class="fa fa-star"></i>
+					PORTFOLIO
+				</a>
+			</li>
+			<li>
+				<a href="#about">
+					<i class="fa fa-user"></i>
+					ABOUT
+				</a>
+			</li>
+			<li>
+				<a href="#contact">
+					<i class="fa fa-email"></i>
+					CONTACT
+				</a>
+			</li>
+		</ul>
+	</nav>
+
 	<header id="home" class="section"
 		data--60p-top="background-color: rgb(237,237,254)"
 		data-center-bottom="background-color: rgb(210,210,249)"
@@ -37,12 +69,21 @@
 				data--300-top="margin-top: 20px; opacity[swing]: 1"
 			>
 			<h1
-				data-40-top="margin-top: 0px; line-height: 70px; opacity[swing]: 1"
-				data--650-top="margin-top: 180px; line-height: 90px; opacity[swing]: 0"
+				data-40-top="margin-top: 0px; opacity[swing]: 1"
+				data--650-top="margin-top: 180px; opacity[swing]: 0"
 			>
-				Designer<span>.</span><br />
-				Journalist<span>.</span><br />
-				Developer<span>.</span><br />
+				<span>Designer</span>
+				<span>Journalist</span>
+				<span>Developer</span>
+			</h1>
+		</div>
+		<div class="wrapper-mobile">
+			<h3>Hi, I'm Chris. I like telling stories.</h3>
+			<img src="img/lusk-main.jpg">
+			<h1>
+				<span>Designer</span>
+				<span>Journalist</span>
+				<span>Developer</span>
 			</h1>
 		</div>
 	</header>

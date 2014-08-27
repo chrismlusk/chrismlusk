@@ -1,31 +1,31 @@
-// ( function( $ ) {
+( function( $ ) {
 
-// 	function enableSkrollr(){
-// 		console.log('on desktop');
+	function enableSkrollr(){
+		console.log('on desktop');
 
-// 		// enable skrollr for non-touch devices
-// 		if(!Modernizr.touch){
-// 			var s = skrollr.init({
-// 				forceHeight: false
-// 			});
-// 		}
-// 	}
+		// enable skrollr for non-touch devices
+		if(!Modernizr.touch){
+			var s = skrollr.init({
+				forceHeight: false
+			});
+		}
+	}
 
-// 	function disableSkrollr(){
-// 		console.log('on mobile');
+	function disableSkrollr(){
+		console.log('on mobile');
 
-// 		// destroy skrollr
-// 		var s = skrollr.init();
-// 		s.destroy();
-// 	}
+		// destroy skrollr
+		var s = skrollr.init();
+		s.destroy();
+	}
 
-// 	enquire.register("screen and (min-width: 768px)", {
-// 	    match : function() {
-// 	        enableSkrollr();
-// 	    },  
-// 	    unmatch : function() {
-// 	        disableSkrollr();
-// 	    }
-// 	});
+	enquire.register("only screen and (max-width: 400px)", {
+	    match : function() {
+	        disableSkrollr();
+	    },  
+	    unmatch : function() {
+	        enableSkrollr();
+	    }
+	});
 
-// } )( jQuery );
+} )( jQuery );
