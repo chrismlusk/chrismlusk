@@ -19,7 +19,7 @@
 		s.destroy();
 	}
 
-	enquire.register("only screen and (max-width: 400px)", {
+	enquire.register("only screen and (max-width: 768px)", {
 	    match : function() {
 	        disableSkrollr();
 	    },  

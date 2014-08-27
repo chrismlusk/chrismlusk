@@ -350,7 +350,7 @@ nav#mobile-nav ul li:last-child {
 }
 nav#mobile-nav ul li a {
   display: block;
-  color: #9999cc;
+  color: #d2d2f9;
   padding: 6px 0;
 }
 nav#mobile-nav ul li a i {
@@ -498,15 +498,17 @@ nav#mobile-nav ul li a i.fa-email {
   max-height: 500px;
   max-width: 420px;
   width: 100%;
+  filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
-  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%);
-  filter: grayscale(100%);
   filter: #808080;
-  /* IE6-9 */
+  /* IE */
   filter: url('filters.svg#grayscale');
   /* Firefox 3.5+ */
+  -webkit-filter: grayscale(1);
+  /* old webkit */
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
@@ -576,14 +578,16 @@ nav#mobile-nav ul li a i.fa-email {
   transition: all 0.2s ease-in-out;
 }
 #portfolio #grid li a:hover article .image img {
+  filter: grayscale(0%);
   -webkit-filter: grayscale(0%);
-  -webkit-filter: grayscale(0);
+  -moz-filter: grayscale(0%);
   -ms-filter: grayscale(0%);
   -o-filter: grayscale(0%);
-  filter: grayscale(0%);
-  /* IE6-9 */
+  /* IE */
   filter: none;
   /* Firefox 3.5+ */
+  -webkit-filter: grayscale(0);
+  /* old webkit */
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -797,6 +801,19 @@ nav#mobile-nav ul li a i.fa-email {
   body h6.title {
     font-size: 90px;
     line-height: 70px;
+  }
+  nav#main-nav {
+    display: none;
+  }
+  nav#mobile-nav {
+    display: block;
+  }
+  nav#mobile-nav ul li a {
+    padding: 16px 0;
+  }
+  #home {
+    background-position: 50% 100px;
+    height: 860px;
   }
   #home #main-social {
     display: none;
