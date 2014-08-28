@@ -326,7 +326,7 @@ nav#main-nav ul li a:hover {
 }
 nav#mobile-nav {
   display: none;
-  background-color: #333366;
+  background-color: rgba(38, 38, 76, 0.97);
   position: fixed;
   left: 0;
   bottom: 0;
@@ -334,7 +334,6 @@ nav#mobile-nav {
   z-index: 999;
 }
 nav#mobile-nav ul li {
-  background-color: #26264c;
   border-right: 1px solid #393973;
   display: block;
   float: left;
@@ -355,22 +354,12 @@ nav#mobile-nav ul li a {
 }
 nav#mobile-nav ul li a i {
   display: block;
+  font-size: 28px;
+  margin-bottom: 2px;
 }
 nav#mobile-nav ul li a i.fa-home {
   font-size: 30px;
   margin-bottom: -1px;
-}
-nav#mobile-nav ul li a i.fa-star {
-  font-size: 28px;
-  margin-bottom: 2px;
-}
-nav#mobile-nav ul li a i.fa-user {
-  font-size: 28px;
-  margin-bottom: 2px;
-}
-nav#mobile-nav ul li a i.fa-email {
-  font-size: 28px;
-  margin-bottom: 2px;
 }
 #home {
   background-image: url('../img/bg-intro.png');
@@ -635,12 +624,12 @@ nav#mobile-nav ul li a i.fa-email {
 }
 #contact .wrapper {
   margin: 40px auto 80px auto;
-  max-width: 300px;
+  max-width: 340px;
   text-align: center;
 }
 #contact .wrapper h3 {
   font-family: 'lora', serif;
-  font-size: 26px;
+  font-size: 30px;
 }
 #contact .wrapper h3 a {
   color: #9999cc;
@@ -666,7 +655,7 @@ nav#mobile-nav ul li a i.fa-email {
 }
 #contact .wrapper ul li a i {
   color: #9999cc;
-  font-size: 30px;
+  font-size: 34px;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
@@ -806,8 +795,19 @@ nav#mobile-nav ul li a i.fa-email {
   nav#mobile-nav {
     display: block;
   }
+  nav#mobile-nav ul li {
+    font-size: 12px;
+  }
   nav#mobile-nav ul li a {
-    padding: 16px 0;
+    padding: 12px 0;
+  }
+  nav#mobile-nav ul li a i {
+    font-size: 34px;
+    margin-bottom: 2px;
+  }
+  nav#mobile-nav ul li a i.fa-home {
+    font-size: 36px;
+    margin-bottom: -1px;
   }
   #home {
     background-position: 50% 100px;
@@ -925,8 +925,20 @@ nav#mobile-nav ul li a i.fa-email {
   nav#mobile-nav {
     display: block;
   }
+  nav#mobile-nav ul li {
+    font-size: 10px;
+  }
   nav#mobile-nav ul li a {
     padding: 6px 0;
+  }
+  nav#mobile-nav ul li a i {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 2px;
+  }
+  nav#mobile-nav ul li a i.fa-home {
+    font-size: 26px;
+    margin-bottom: -1px;
   }
   #home {
     background-image: none;
@@ -975,7 +987,7 @@ nav#mobile-nav ul li a i.fa-email {
   #contact {
     background: none;
     background-color: #d2d2f9;
-    height: 400px;
+    height: 280px;
   }
   #contact .wrapper {
     margin: 40px auto;
@@ -988,7 +1000,7 @@ nav#mobile-nav ul li a i.fa-email {
     padding-top: 10px;
   }
   #contact .wrapper ul li {
-    margin: 0 8px 0 0;
+    margin: 0 10px 0 0;
   }
   #contact .wrapper ul li a i {
     font-size: 26px;
@@ -1002,11 +1014,17 @@ nav#mobile-nav ul li a i.fa-email {
     height: 200px;
   }
   .divider .wrapper {
-    padding-top: 65px;
+    padding-top: 55px;
   }
   .divider .wrapper h1 {
     font-size: 22px;
     font-weight: bold;
+  }
+  .divider .wrapper a.btn {
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 10px;
+    padding: 10px 12px;
   }
   #footer {
     display: none;
