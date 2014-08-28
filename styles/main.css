@@ -677,16 +677,14 @@ nav#mobile-nav ul li a i.fa-email {
   color: #26264c;
 }
 #archive {
-  width: 100%;
-  background: url('../img/divider-archive.jpg') top center fixed;
+  background: url('../img/divider-archive.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 #resume {
-  width: 100%;
-  background: url('../img/divider-resume.jpg') top center fixed;
+  background: url('../img/divider-resume.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -827,6 +825,55 @@ nav#mobile-nav ul li a i.fa-email {
   #portfolio #grid li:nth-child(8) {
     display: block;
   }
+  #archive {
+    background-attachment: scroll;
+  }
+  #resume {
+    background-attachment: scroll;
+  }
+  .divider {
+    height: 350px;
+  }
+  .divider .wrapper {
+    padding-top: 125px;
+  }
+  .divider .wrapper h1 {
+    color: rgba(237, 237, 252, 0.75);
+  }
+  .divider .wrapper a.btn {
+    background-color: rgba(237, 237, 252, 0.75);
+    border: rgba(237, 237, 252, 0.75);
+    color: #26264c;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 25px;
+    padding: 10px 14px;
+  }
+  #contact {
+    height: 660px;
+    background-position: 50% 280%;
+  }
+  #contact .wrapper {
+    margin-top: 60px;
+    max-width: 380px;
+  }
+  #contact .wrapper h3 {
+    font-size: 34px;
+  }
+  #contact .wrapper ul {
+    padding-top: 10px;
+  }
+  #contact .wrapper ul li {
+    margin: 0 12px 0 0;
+  }
+  #contact .wrapper ul li a i {
+    font-size: 42px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
 }
 @media only screen and (max-width: 620px) {
   body h1.title,
@@ -875,11 +922,11 @@ nav#mobile-nav ul li a i.fa-email {
     line-height: 26px;
     margin-top: 40px;
   }
-  nav#main-nav {
-    display: none;
-  }
   nav#mobile-nav {
     display: block;
+  }
+  nav#mobile-nav ul li a {
+    padding: 6px 0;
   }
   #home {
     background-image: none;
@@ -958,18 +1005,8 @@ nav#mobile-nav ul li a i.fa-email {
     padding-top: 65px;
   }
   .divider .wrapper h1 {
-    color: rgba(237, 237, 252, 0.85);
     font-size: 22px;
     font-weight: bold;
-  }
-  .divider .wrapper a.btn {
-    background-color: rgba(237, 237, 252, 0.85);
-    border: rgba(237, 237, 252, 0.85);
-    color: #26264c;
-    font-size: 14px;
-    line-height: 14px;
-    margin-top: 10px;
-    padding: 8px 12px;
   }
   #footer {
     display: none;
