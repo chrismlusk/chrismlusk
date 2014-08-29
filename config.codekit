@@ -13,6 +13,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bg-intro.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 335254,
+		"inputAbbreviatedPath": "\/img\/bg-intro.png",
+		"outputAbbreviatedPath": "\/img\/bg-intro.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/divider-archive.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -53,17 +64,6 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/img\/footer-bg.png",
 		"outputAbbreviatedPath": "\/img\/footer-bg.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/intro-bg.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 335254,
-		"inputAbbreviatedPath": "\/img\/intro-bg.png",
-		"outputAbbreviatedPath": "\/img\/intro-bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -121,6 +121,15 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/includes\/main-nav.kit",
 		"outputAbbreviatedPath": "\/includes\/main-nav.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/includes\/scripts.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/includes\/scripts.html",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -206,17 +215,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/js\/vendor\/jquery-1.11.0.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/vendor\/jquery-1.11.0.js",
-		"outputAbbreviatedPath": "\/js\/vendor\/min\/jquery-1.11.0-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/js\/vendor\/jquery-1.11.0.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -239,310 +237,319 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/portfolio\/img\/full\/featured\/hsc-info_2012.jpg": {
-		"fileType": 16384,
+	"\/portfolio\/clips\/2013-football-preview.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/portfolio\/clips\/2013-football-preview.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/portfolio\/clips\/2013-football-preview.kit": {
+		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 131580,
-		"inputAbbreviatedPath": "\/portfolio\/img\/full\/featured\/hsc-info_2012.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/full\/featured\/hsc-info_2012.jpg",
+		"inputAbbreviatedPath": "\/portfolio\/clips\/2013-football-preview.kit",
+		"outputAbbreviatedPath": "\/portfolio\/clips\/2013-football-preview.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputPathIsSetByUser": 0
 		},
-	"\/portfolio\/img\/full\/featured\/ocr_2013-10-3.jpg": {
-		"fileType": 16384,
+	"\/portfolio\/clips\/ahead-of-the-pack.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/portfolio\/clips\/ahead-of-the-pack.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/portfolio\/clips\/ahead-of-the-pack.kit": {
+		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 231645,
-		"inputAbbreviatedPath": "\/portfolio\/img\/full\/featured\/ocr_2013-10-3.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/full\/featured\/ocr_2013-10-3.jpg",
+		"inputAbbreviatedPath": "\/portfolio\/clips\/ahead-of-the-pack.kit",
+		"outputAbbreviatedPath": "\/portfolio\/clips\/ahead-of-the-pack.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputPathIsSetByUser": 0
 		},
-	"\/portfolio\/img\/full\/featured\/ocr_2013-11-7.jpg": {
-		"fileType": 16384,
+	"\/portfolio\/clips\/alphabet-of-issues.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/portfolio\/clips\/alphabet-of-issues.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/portfolio\/clips\/alphabet-of-issues.kit": {
+		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 233593,
-		"inputAbbreviatedPath": "\/portfolio\/img\/full\/featured\/ocr_2013-11-7.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/full\/featured\/ocr_2013-11-7.jpg",
+		"inputAbbreviatedPath": "\/portfolio\/clips\/alphabet-of-issues.kit",
+		"outputAbbreviatedPath": "\/portfolio\/clips\/alphabet-of-issues.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputPathIsSetByUser": 0
 		},
-	"\/portfolio\/img\/full\/featured\/ocr_2013-5-10.jpg": {
-		"fileType": 16384,
+	"\/portfolio\/clips\/dead-week-survival-guide.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/portfolio\/clips\/dead-week-survival-guide.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/portfolio\/clips\/dead-week-survival-guide.kit": {
+		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 281683,
-		"inputAbbreviatedPath": "\/portfolio\/img\/full\/featured\/ocr_2013-5-10.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/full\/featured\/ocr_2013-5-10.jpg",
+		"inputAbbreviatedPath": "\/portfolio\/clips\/dead-week-survival-guide.kit",
+		"outputAbbreviatedPath": "\/portfolio\/clips\/dead-week-survival-guide.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputPathIsSetByUser": 0
 		},
-	"\/portfolio\/img\/full\/featured\/ocr_2013-8-1.jpg": {
-		"fileType": 16384,
+	"\/portfolio\/clips\/desert-deja-vu.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/portfolio\/clips\/desert-deja-vu.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/portfolio\/clips\/desert-deja-vu.kit": {
+		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 229113,
-		"inputAbbreviatedPath": "\/portfolio\/img\/full\/featured\/ocr_2013-8-1.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/full\/featured\/ocr_2013-8-1.jpg",
+		"inputAbbreviatedPath": "\/portfolio\/clips\/desert-deja-vu.kit",
+		"outputAbbreviatedPath": "\/portfolio\/clips\/desert-deja-vu.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputPathIsSetByUser": 0
 		},
-	"\/portfolio\/img\/full\/featured\/ocr_2013-9-5.jpg": {
-		"fileType": 16384,
+	"\/portfolio\/clips\/design-to-minimize-crime.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/portfolio\/clips\/design-to-minimize-crime.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/portfolio\/clips\/design-to-minimize-crime.kit": {
+		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 177115,
-		"inputAbbreviatedPath": "\/portfolio\/img\/full\/featured\/ocr_2013-9-5.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/full\/featured\/ocr_2013-9-5.jpg",
+		"inputAbbreviatedPath": "\/portfolio\/clips\/design-to-minimize-crime.kit",
+		"outputAbbreviatedPath": "\/portfolio\/clips\/design-to-minimize-crime.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputPathIsSetByUser": 0
 		},
-	"\/portfolio\/img\/full\/featured\/oud_2010-10-5.jpg": {
-		"fileType": 16384,
+	"\/portfolio\/clips\/great-gasoline-quest.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/portfolio\/clips\/great-gasoline-quest.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/portfolio\/clips\/great-gasoline-quest.kit": {
+		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 211019,
-		"inputAbbreviatedPath": "\/portfolio\/img\/full\/featured\/oud_2010-10-5.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/full\/featured\/oud_2010-10-5.jpg",
+		"inputAbbreviatedPath": "\/portfolio\/clips\/great-gasoline-quest.kit",
+		"outputAbbreviatedPath": "\/portfolio\/clips\/great-gasoline-quest.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputPathIsSetByUser": 0
 		},
-	"\/portfolio\/img\/full\/featured\/oud_2012-5-7.jpg": {
-		"fileType": 16384,
+	"\/portfolio\/clips\/missing-pieces.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/portfolio\/clips\/missing-pieces.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/portfolio\/clips\/missing-pieces.kit": {
+		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 400737,
-		"inputAbbreviatedPath": "\/portfolio\/img\/full\/featured\/oud_2012-5-7.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/full\/featured\/oud_2012-5-7.jpg",
+		"inputAbbreviatedPath": "\/portfolio\/clips\/missing-pieces.kit",
+		"outputAbbreviatedPath": "\/portfolio\/clips\/missing-pieces.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputPathIsSetByUser": 0
 		},
-	"\/portfolio\/img\/full\/hsc-mag_2012.jpg": {
-		"fileType": 16384,
+	"\/portfolio\/clips\/more-than-a-housing-issue.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/portfolio\/clips\/more-than-a-housing-issue.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/portfolio\/clips\/more-than-a-housing-issue.kit": {
+		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 176996,
-		"inputAbbreviatedPath": "\/portfolio\/img\/full\/hsc-mag_2012.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/full\/hsc-mag_2012.jpg",
+		"inputAbbreviatedPath": "\/portfolio\/clips\/more-than-a-housing-issue.kit",
+		"outputAbbreviatedPath": "\/portfolio\/clips\/more-than-a-housing-issue.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputPathIsSetByUser": 0
 		},
-	"\/portfolio\/img\/full\/ocr_2013-11-11.jpg": {
-		"fileType": 16384,
+	"\/portfolio\/clips\/ou-texas-preview.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/portfolio\/clips\/ou-texas-preview.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/portfolio\/clips\/ou-texas-preview.kit": {
+		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/portfolio\/img\/full\/ocr_2013-11-11.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/full\/ocr_2013-11-11.jpg",
+		"inputAbbreviatedPath": "\/portfolio\/clips\/ou-texas-preview.kit",
+		"outputAbbreviatedPath": "\/portfolio\/clips\/ou-texas-preview.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputPathIsSetByUser": 0
 		},
-	"\/portfolio\/img\/full\/ocr_2013-11-13.jpg": {
-		"fileType": 16384,
+	"\/portfolio\/clips\/price-to-play.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/portfolio\/clips\/price-to-play.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/portfolio\/clips\/price-to-play.kit": {
+		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/portfolio\/img\/full\/ocr_2013-11-13.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/full\/ocr_2013-11-13.jpg",
+		"inputAbbreviatedPath": "\/portfolio\/clips\/price-to-play.kit",
+		"outputAbbreviatedPath": "\/portfolio\/clips\/price-to-play.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputPathIsSetByUser": 0
 		},
-	"\/portfolio\/img\/full\/ocr_2013-11-29.jpg": {
-		"fileType": 16384,
+	"\/portfolio\/clips\/saved.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/portfolio\/clips\/saved.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/portfolio\/clips\/saved.kit": {
+		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/portfolio\/img\/full\/ocr_2013-11-29.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/full\/ocr_2013-11-29.jpg",
+		"inputAbbreviatedPath": "\/portfolio\/clips\/saved.kit",
+		"outputAbbreviatedPath": "\/portfolio\/clips\/saved.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputPathIsSetByUser": 0
 		},
-	"\/portfolio\/img\/full\/ocr_2013-3-16.jpg": {
-		"fileType": 16384,
+	"\/portfolio\/clips\/slice-of-italy.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/portfolio\/clips\/slice-of-italy.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/portfolio\/clips\/slice-of-italy.kit": {
+		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/portfolio\/img\/full\/ocr_2013-3-16.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/full\/ocr_2013-3-16.jpg",
+		"inputAbbreviatedPath": "\/portfolio\/clips\/slice-of-italy.kit",
+		"outputAbbreviatedPath": "\/portfolio\/clips\/slice-of-italy.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputPathIsSetByUser": 0
 		},
-	"\/portfolio\/img\/full\/ocr_2013-4-12.jpg": {
-		"fileType": 16384,
+	"\/portfolio\/clips\/student-demographics.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/portfolio\/clips\/student-demographics.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/portfolio\/clips\/student-demographics.kit": {
+		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/portfolio\/img\/full\/ocr_2013-4-12.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/full\/ocr_2013-4-12.jpg",
+		"inputAbbreviatedPath": "\/portfolio\/clips\/student-demographics.kit",
+		"outputAbbreviatedPath": "\/portfolio\/clips\/student-demographics.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputPathIsSetByUser": 0
 		},
-	"\/portfolio\/img\/full\/ocr_2013-8-15.jpg": {
-		"fileType": 16384,
+	"\/portfolio\/clips\/tall-order.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/portfolio\/clips\/tall-order.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/portfolio\/clips\/tall-order.kit": {
+		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/portfolio\/img\/full\/ocr_2013-8-15.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/full\/ocr_2013-8-15.jpg",
+		"inputAbbreviatedPath": "\/portfolio\/clips\/tall-order.kit",
+		"outputAbbreviatedPath": "\/portfolio\/clips\/tall-order.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputPathIsSetByUser": 0
 		},
-	"\/portfolio\/img\/full\/oud-2011-11-22.jpg": {
-		"fileType": 16384,
+	"\/portfolio\/clips\/template.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/portfolio\/clips\/template.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/portfolio\/clips\/template.kit": {
+		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/portfolio\/img\/full\/oud-2011-11-22.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/full\/oud-2011-11-22.jpg",
+		"inputAbbreviatedPath": "\/portfolio\/clips\/template.kit",
+		"outputAbbreviatedPath": "\/portfolio\/clips\/template.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputPathIsSetByUser": 0
 		},
-	"\/portfolio\/img\/full\/oud_2011-12-12.jpg": {
-		"fileType": 16384,
+	"\/portfolio\/clips\/where-to-go-play.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/portfolio\/clips\/where-to-go-play.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/portfolio\/clips\/where-to-go-play.kit": {
+		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/portfolio\/img\/full\/oud_2011-12-12.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/full\/oud_2011-12-12.jpg",
+		"inputAbbreviatedPath": "\/portfolio\/clips\/where-to-go-play.kit",
+		"outputAbbreviatedPath": "\/portfolio\/clips\/where-to-go-play.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputPathIsSetByUser": 0
 		},
-	"\/portfolio\/img\/full\/oud_2012-3-7.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/portfolio\/img\/full\/oud_2012-3-7.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/full\/oud_2012-3-7.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/portfolio\/img\/full\/oud_2012-4-25.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/portfolio\/img\/full\/oud_2012-4-25.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/full\/oud_2012-4-25.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/portfolio\/img\/full\/oud_2012-4-30.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/portfolio\/img\/full\/oud_2012-4-30.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/full\/oud_2012-4-30.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/portfolio\/img\/medium\/featured\/hsc-info_2012.jpg": {
+	"\/portfolio\/img\/medium\/hsc-info_2012.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 69219,
-		"inputAbbreviatedPath": "\/portfolio\/img\/medium\/featured\/hsc-info_2012.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/medium\/featured\/hsc-info_2012.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/portfolio\/img\/medium\/featured\/ocr_2013-10-3.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 113001,
-		"inputAbbreviatedPath": "\/portfolio\/img\/medium\/featured\/ocr_2013-10-3.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/medium\/featured\/ocr_2013-10-3.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/portfolio\/img\/medium\/featured\/ocr_2013-11-7.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 111034,
-		"inputAbbreviatedPath": "\/portfolio\/img\/medium\/featured\/ocr_2013-11-7.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/medium\/featured\/ocr_2013-11-7.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/portfolio\/img\/medium\/featured\/ocr_2013-5-10.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 162459,
-		"inputAbbreviatedPath": "\/portfolio\/img\/medium\/featured\/ocr_2013-5-10.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/medium\/featured\/ocr_2013-5-10.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/portfolio\/img\/medium\/featured\/ocr_2013-8-1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 112029,
-		"inputAbbreviatedPath": "\/portfolio\/img\/medium\/featured\/ocr_2013-8-1.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/medium\/featured\/ocr_2013-8-1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/portfolio\/img\/medium\/featured\/ocr_2013-9-5.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 92134,
-		"inputAbbreviatedPath": "\/portfolio\/img\/medium\/featured\/ocr_2013-9-5.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/medium\/featured\/ocr_2013-9-5.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/portfolio\/img\/medium\/featured\/oud_2010-10-5.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 126642,
-		"inputAbbreviatedPath": "\/portfolio\/img\/medium\/featured\/oud_2010-10-5.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/medium\/featured\/oud_2010-10-5.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/portfolio\/img\/medium\/featured\/oud_2012-5-7.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 177985,
-		"inputAbbreviatedPath": "\/portfolio\/img\/medium\/featured\/oud_2012-5-7.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/medium\/featured\/oud_2012-5-7.jpg",
+		"inputAbbreviatedPath": "\/portfolio\/img\/medium\/hsc-info_2012.jpg",
+		"outputAbbreviatedPath": "\/portfolio\/img\/medium\/hsc-info_2012.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -558,24 +565,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/portfolio\/img\/medium\/ocr_2013-11-11.jpg": {
+	"\/portfolio\/img\/medium\/ocr_2013-10-3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/portfolio\/img\/medium\/ocr_2013-11-11.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/medium\/ocr_2013-11-11.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/portfolio\/img\/medium\/ocr_2013-11-13.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/portfolio\/img\/medium\/ocr_2013-11-13.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/medium\/ocr_2013-11-13.jpg",
+		"initialSize": 113001,
+		"inputAbbreviatedPath": "\/portfolio\/img\/medium\/ocr_2013-10-3.jpg",
+		"outputAbbreviatedPath": "\/portfolio\/img\/medium\/ocr_2013-10-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -587,6 +583,17 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/portfolio\/img\/medium\/ocr_2013-11-29.jpg",
 		"outputAbbreviatedPath": "\/portfolio\/img\/medium\/ocr_2013-11-29.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/portfolio\/img\/medium\/ocr_2013-11-7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 111034,
+		"inputAbbreviatedPath": "\/portfolio\/img\/medium\/ocr_2013-11-7.jpg",
+		"outputAbbreviatedPath": "\/portfolio\/img\/medium\/ocr_2013-11-7.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -613,6 +620,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/portfolio\/img\/medium\/ocr_2013-5-10.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 162459,
+		"inputAbbreviatedPath": "\/portfolio\/img\/medium\/ocr_2013-5-10.jpg",
+		"outputAbbreviatedPath": "\/portfolio\/img\/medium\/ocr_2013-5-10.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/portfolio\/img\/medium\/ocr_2013-8-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 112029,
+		"inputAbbreviatedPath": "\/portfolio\/img\/medium\/ocr_2013-8-1.jpg",
+		"outputAbbreviatedPath": "\/portfolio\/img\/medium\/ocr_2013-8-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/portfolio\/img\/medium\/ocr_2013-8-15.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -624,13 +653,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/portfolio\/img\/medium\/oud-2011-11-22.jpg": {
+	"\/portfolio\/img\/medium\/ocr_2013-9-5.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/portfolio\/img\/medium\/oud-2011-11-22.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/medium\/oud-2011-11-22.jpg",
+		"initialSize": 92134,
+		"inputAbbreviatedPath": "\/portfolio\/img\/medium\/ocr_2013-9-5.jpg",
+		"outputAbbreviatedPath": "\/portfolio\/img\/medium\/ocr_2013-9-5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/portfolio\/img\/medium\/oud_2010-10-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 126642,
+		"inputAbbreviatedPath": "\/portfolio\/img\/medium\/oud_2010-10-5.jpg",
+		"outputAbbreviatedPath": "\/portfolio\/img\/medium\/oud_2010-10-5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -657,17 +697,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/portfolio\/img\/medium\/oud_2012-4-25.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/portfolio\/img\/medium\/oud_2012-4-25.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/medium\/oud_2012-4-25.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/portfolio\/img\/medium\/oud_2012-4-30.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -675,6 +704,17 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/portfolio\/img\/medium\/oud_2012-4-30.jpg",
 		"outputAbbreviatedPath": "\/portfolio\/img\/medium\/oud_2012-4-30.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/portfolio\/img\/medium\/oud_2012-5-7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 177985,
+		"inputAbbreviatedPath": "\/portfolio\/img\/medium\/oud_2012-5-7.jpg",
+		"outputAbbreviatedPath": "\/portfolio\/img\/medium\/oud_2012-5-7.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -778,28 +818,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/portfolio\/img\/thumb\/ocr_2013-11-11.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 39383,
-		"inputAbbreviatedPath": "\/portfolio\/img\/thumb\/ocr_2013-11-11.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/thumb\/ocr_2013-11-11.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/portfolio\/img\/thumb\/ocr_2013-11-13.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 44724,
-		"inputAbbreviatedPath": "\/portfolio\/img\/thumb\/ocr_2013-11-13.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/thumb\/ocr_2013-11-13.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/portfolio\/img\/thumb\/ocr_2013-11-29.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -844,17 +862,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/portfolio\/img\/thumb\/oud-2011-11-22.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 57676,
-		"inputAbbreviatedPath": "\/portfolio\/img\/thumb\/oud-2011-11-22.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/thumb\/oud-2011-11-22.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/portfolio\/img\/thumb\/oud_2011-12-12.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -873,17 +880,6 @@
 		"initialSize": 48484,
 		"inputAbbreviatedPath": "\/portfolio\/img\/thumb\/oud_2012-3-7.jpg",
 		"outputAbbreviatedPath": "\/portfolio\/img\/thumb\/oud_2012-3-7.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/portfolio\/img\/thumb\/oud_2012-4-25.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 22425,
-		"inputAbbreviatedPath": "\/portfolio\/img\/thumb\/oud_2012-4-25.jpg",
-		"outputAbbreviatedPath": "\/portfolio\/img\/thumb\/oud_2012-4-25.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
