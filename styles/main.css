@@ -242,7 +242,6 @@ nav#main-nav #menu div {
 }
 nav#main-nav #menu span.bars {
   background: #9999cc;
-  border-radius: 1px;
   content: ' ';
   cursor: pointer;
   display: block;
@@ -251,6 +250,12 @@ nav#main-nav #menu span.bars {
   position: absolute;
   top: 8px;
   width: 28px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
@@ -259,7 +264,6 @@ nav#main-nav #menu span.bars {
 }
 nav#main-nav #menu span.bars:before {
   background: #9999cc;
-  border-radius: 1px;
   content: ' ';
   cursor: pointer;
   display: block;
@@ -268,6 +272,12 @@ nav#main-nav #menu span.bars:before {
   position: absolute;
   top: -8px;
   width: 28px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
@@ -276,7 +286,6 @@ nav#main-nav #menu span.bars:before {
 }
 nav#main-nav #menu span.bars:after {
   background: #9999cc;
-  border-radius: 1px;
   content: ' ';
   cursor: pointer;
   display: block;
@@ -285,6 +294,12 @@ nav#main-nav #menu span.bars:after {
   position: absolute;
   bottom: -8px;
   width: 28px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
@@ -978,7 +993,7 @@ body.inside .wrapper .info p.source {
   body.inside .wrapper .info ul li {
     font-size: 12px;
     line-height: 12px;
-    padding-bottom: 3px 5px;
+    padding: 3px 5px;
   }
   body.inside .wrapper .info p {
     font-size: 16px;

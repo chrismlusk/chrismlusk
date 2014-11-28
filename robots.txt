@@ -1,0 +1,9 @@
+User-Agent: *
+Disallow: 
+Disallow: /img
+Disallow: /includes
+Disallow: /js
+Disallow: /portfolio/img
+Disallow: /styles
+Disallow: /blog/wp-admin
+Disallow: /blog/wp-includes

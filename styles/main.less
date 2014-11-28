@@ -310,7 +310,6 @@ nav#main-nav {
 		}
 		span.bars {
 			background: @blue;
-			border-radius: 1px;
 			content: ' ';
 			cursor: pointer;
 			display: block;
@@ -319,10 +318,10 @@ nav#main-nav {
 			position: absolute;
 				top: 8px;
 			width: 28px;
+			.border-radius(1px);
 			.transition(all 0.2s ease-in-out);
 			&:before {
 				background: @blue;
-				border-radius: 1px;
 				content: ' ';
 				cursor: pointer;
 				display: block;
@@ -331,11 +330,11 @@ nav#main-nav {
 				position: absolute;
 					top: -8px;
 				width: 28px;
+				.border-radius(1px);
 				.transition(all 0.2s ease-in-out);
 			}
 			&:after {
 				background: @blue;
-				border-radius: 1px;
 				content: ' ';
 				cursor: pointer;
 				display: block;
@@ -344,6 +343,7 @@ nav#main-nav {
 				position: absolute;
 					bottom: -8px;
 				width: 28px;
+				.border-radius(1px);
 				.transition(all 0.2s ease-in-out);
 			}
 		}
@@ -924,7 +924,7 @@ body.inside {
 						li {
 							font-size: 12px;
 							line-height: 12px;
-							padding-bottom: 3px 5px;
+							padding: 3px 5px;
 						}
 					}
 					p {
