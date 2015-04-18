@@ -1,4 +1,4 @@
 chrislusk.me
 ============
 
-My personal website
+My personal website. Built August 2014.
