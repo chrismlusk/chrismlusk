@@ -1,0 +1,13 @@
+# www.robotstxt.org/
+
+# Allow crawling of all content
+User-Agent: *
+Disallow: 
+Disallow: /_archive
+Disallow: /img
+Disallow: /includes
+Disallow: /js
+Disallow: /portfolio/img
+Disallow: /styles
+Disallow: /blog/wp-admin
+Disallow: /blog/wp-includes
