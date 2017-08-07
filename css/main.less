@@ -10,10 +10,10 @@
 /* MIXINS & ANIMATION */
 /*------------------------------------------------*/
 .transition(@transition: color) {
-	-webkit-transition: @transition 0.2s ease-out;  
+	-webkit-transition: @transition 0.2s ease-out;
 	-moz-transition:    @transition 0.2s ease-out;
-	-ms-transition:     @transition 0.2s ease-out; 
-	-o-transition:      @transition 0.2s ease-out;  
+	-ms-transition:     @transition 0.2s ease-out;
+	-o-transition:      @transition 0.2s ease-out;
 }
 .animation (@name, @duration: 400ms, @delay: 400ms) {
 	-webkit-animation: @name @duration 1 ease-out forwards @delay;
@@ -241,6 +241,7 @@ header {
 					i {
 						font-size: 1.5em;
 						line-height: 46px;
+            position: relative;
 					}
 					&:hover {
 						&:before {

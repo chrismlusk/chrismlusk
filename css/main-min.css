@@ -208,7 +208,7 @@ header .wrapper .social-links li a {
   width: 46px;
   height: 46px;
 }
-header .wrapper .social-links li a:before {
+header .wrapper .social-links li a::before {
   content: " ";
   display: block;
   position: absolute;
@@ -223,12 +223,13 @@ header .wrapper .social-links li a:before {
 header .wrapper .social-links li a i {
   font-size: 1.5em;
   line-height: 46px;
+  position: relative;
   -webkit-transition: color 0.2s ease-out;
   -moz-transition: color 0.2s ease-out;
   -ms-transition: color 0.2s ease-out;
   -o-transition: color 0.2s ease-out;
 }
-header .wrapper .social-links li a:hover:before {
+header .wrapper .social-links li a:hover::before {
   animation: jelly-pop 1000ms linear both;
 }
 header .wrapper .social-links li a:hover i {
