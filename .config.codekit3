@@ -33,6 +33,239 @@
 		"oAP": "\/assets\/css\/main.css.map",
 		"oF": 0
 		},
+	"\/assets\/fonts\/atcoverlook-bold-webfont.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/atcoverlook-bold-webfont.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atcoverlook-bold-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/atcoverlook-bold-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/atcoverlook-bold-webfont.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/atcoverlook-bold-webfont.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atcoverlook-bold-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/atcoverlook-bold-webfont.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atcoverlook-bold-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/atcoverlook-bold-webfont.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atcoverlook-heavy-webfont.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/atcoverlook-heavy-webfont.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atcoverlook-heavy-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/atcoverlook-heavy-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/atcoverlook-heavy-webfont.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/atcoverlook-heavy-webfont.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atcoverlook-heavy-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/atcoverlook-heavy-webfont.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atcoverlook-heavy-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/atcoverlook-heavy-webfont.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atcoverlook-regular-webfont.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/atcoverlook-regular-webfont.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atcoverlook-regular-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/atcoverlook-regular-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/atcoverlook-regular-webfont.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/atcoverlook-regular-webfont.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atcoverlook-regular-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/atcoverlook-regular-webfont.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atcoverlook-regular-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/atcoverlook-regular-webfont.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atcoverlook-thin-webfont.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/atcoverlook-thin-webfont.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atcoverlook-thin-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/atcoverlook-thin-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/atcoverlook-thin-webfont.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/atcoverlook-thin-webfont.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atcoverlook-thin-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/atcoverlook-thin-webfont.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/atcoverlook-thin-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/atcoverlook-thin-webfont.woff2",
+		"oF": 0
+		},
+	"\/assets\/images\/facebook-og.jpg": {
+		"ft": 16384,
+		"iS": 38585,
+		"oA": 0,
+		"oAP": "\/assets\/images\/facebook-og.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/fcstailgating.jpg": {
+		"ft": 16384,
+		"iS": 135627,
+		"oA": 0,
+		"oAP": "\/assets\/images\/fcstailgating.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/friendshipmadness.jpg": {
+		"ft": 16384,
+		"iS": 53218,
+		"oA": 0,
+		"oAP": "\/assets\/images\/friendshipmadness.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/illinoislawreview.jpg": {
+		"ft": 16384,
+		"iS": 84139,
+		"oA": 0,
+		"oAP": "\/assets\/images\/illinoislawreview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/logo.png": {
+		"ft": 32768,
+		"iS": 3677,
+		"oA": 0,
+		"oAP": "\/assets\/images\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/newsliteracy2016.jpg": {
+		"ft": 16384,
+		"iS": 64415,
+		"oA": 0,
+		"oAP": "\/assets\/images\/newsliteracy2016.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/policetraining.jpg": {
+		"ft": 16384,
+		"iS": 63584,
+		"oA": 0,
+		"oAP": "\/assets\/images\/policetraining.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/scorescraper.jpg": {
+		"ft": 16384,
+		"iS": 87865,
+		"oA": 0,
+		"oAP": "\/assets\/images\/scorescraper.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/js\/scripts.js": {
 		"ft": 64,
 		"ma": 0,
@@ -42,6 +275,13 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/assets\/pdf\/resume.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/pdf\/resume.pdf",
+		"oF": 0
 		},
 	"\/assets\/sass\/abstracts\/_functions.scss": {
 		"aP": 1,
@@ -121,11 +361,57 @@
 		"oS": 2,
 		"uL": 1
 		},
+	"\/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/browserconfig.xml",
+		"oF": 0
+		},
+	"\/crossdomain.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/crossdomain.xml",
+		"oF": 0
+		},
+	"\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/favicon.ico",
+		"oF": 0
+		},
+	"\/favicon.png": {
+		"ft": 32768,
+		"iS": 3677,
+		"oA": 0,
+		"oAP": "\/favicon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/projects.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/projects.html",
+		"oF": 0
+		},
+	"\/robots.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/robots.txt",
 		"oF": 0
 		}
 	},
