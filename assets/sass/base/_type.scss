@@ -1,0 +1,77 @@
+//
+// Headings
+// ========
+//
+// 1. When a heading is used as a link, keep the style consistent with other
+//    headings. Why? Headings should separate and organize content. Using
+//    inline text or buttons for links is generally a better approach.
+// ----------------------------------------------------------------------------
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: $headings-font-family;
+  font-weight: $headings-font-weight;
+  line-height: $headings-line-height;
+  color: $headings-color;
+
+  a {
+    color: inherit; // 1
+    font-weight: inherit !important; // 1
+
+    @include hover-focus {
+      color: $link-color;
+    }
+  }
+}
+
+h1 { font-size: $h1-font-size; }
+h2 { font-size: $h2-font-size; }
+h3 { font-size: $h3-font-size; }
+h4 { font-size: $h4-font-size; }
+h5 { font-size: $h5-font-size; }
+h6 { font-size: $h6-font-size; }
+
+
+
+
+//
+// Display type
+// ============
+
+// .display-1 {}
+// .display-2 {}
+// .display-3 {}
+// .display-4 {}
+
+
+
+
+//
+// Horizontal rules
+// ================
+
+// hr {}
+
+
+
+
+//
+// Emphasis
+// ========
+
+// small,
+// .small {}
+
+// mark,
+// .mark {}
+
+
+
+
+//
+// Blockquote
+// ==========
+
+// .blockquote {}
+// .blockquote-footer {}
