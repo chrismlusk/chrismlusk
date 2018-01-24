@@ -393,6 +393,36 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/facebook-og.jpg": {
+		"ft": 16384,
+		"iS": 38585,
+		"oA": 0,
+		"oAP": "\/img\/facebook-og.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/illinoislawreview.jpg": {
+		"ft": 16384,
+		"iS": 84139,
+		"oA": 0,
+		"oAP": "\/img\/illinoislawreview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/policetraining.jpg": {
+		"ft": 16384,
+		"iS": 63584,
+		"oA": 0,
+		"oAP": "\/img\/policetraining.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
