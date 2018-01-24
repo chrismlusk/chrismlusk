@@ -4,9 +4,8 @@
 User-Agent: *
 Disallow: 
 Disallow: /_archive
-Disallow: /img
-Disallow: /includes
-Disallow: /js
+Disallow: /assets/images
+Disallow: /assets/js
 Disallow: /portfolio/img
 Disallow: /styles
 Disallow: /blog/wp-admin
