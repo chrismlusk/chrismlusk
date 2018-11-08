@@ -1,0 +1,21 @@
+{
+  "name": "chrismlusk-frontend",
+  "version": "1.0.0",
+  "description": "The personal website of Chris Lusk",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next -p 8080",
+    "build": "next build",
+    "start": "next start",
+    "test": "NODE_ENV=test jest --watch",
+    "heroku-postbuild": "next build"
+  },
+  "author": "Chris Lusk",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "styled-components": "^4.0.3"
+  }
+}
