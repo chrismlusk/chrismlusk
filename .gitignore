@@ -1,3 +1,42 @@
-/_archive
-/blog
+##########################
+# Project-specific files #
+##########################
+_archive/
+.next/
+.build/
+*.env
+
+
+######################
+# OS generated files #
+######################
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+
+
+#################
+# Project files #
+#################
+
+*.settings
 *.sublime-project
+*.sublime-workspace
+*.vscode
+_notes
+node_modules
+npm-debug.log
+
+
+
+######################
+# Logs and databases #
+######################
+
+*.log
