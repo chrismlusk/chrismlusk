@@ -8,13 +8,15 @@ import Navbar from './Navbar';
 // Router.events.on('routeChangeError', () => console.log('routeChangeErr'));
 
 const HeaderStyles = styled.header`
-  padding: 0 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 9;
 
   @media (min-width: ${({ theme }) => theme.breakpoint.md}) {
-    padding: 0 2rem;
+    height: 100px;
   }
 `;
 
