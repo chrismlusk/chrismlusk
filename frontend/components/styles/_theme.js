@@ -111,9 +111,9 @@ _.boxShadow = {
 };
 
 _.transition = {
-  speed: `86ms`,
+  speed: `116ms`,
   easing: `ease-in-out`,
-  base: `all 86ms ease-in-out`
+  base: `all 116ms ease-in-out`
 };
 
 
@@ -159,9 +159,7 @@ _.heading = {
 };
 
 _.hr ={
-  borderColor: `rgba(0, 0, 0, .1)`,
-  // borderWidth: _.border.width,
-  // marginY: _.spacer
+  borderColor: `rgba(0, 0, 0, .1)`
 };
 
 
@@ -175,15 +173,6 @@ _.btn = {
   lineHeight: _.lineHeight.normal,
   borderWidth: _.border.width,
 };
-
-
-// Header
-
-// _.header = {
-//   paddingY: _.spacer,
-//   paddingX: _.spacer,
-// };
-
 
 // Nav
 
