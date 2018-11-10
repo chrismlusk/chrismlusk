@@ -61,19 +61,23 @@ const GlobalStyles = createGlobalStyle`
     font-weight: 400;
   }
 
-  body {
+  #test {
     background-image: url("/static/images/squiggles.svg");
     background-size: .75rem;
     background-position: top left;
   }
 
   main {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 1rem 1rem;
     margin: 0 auto;
-    padding: 0 1rem;
-    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
 
     @media (min-width: ${({ theme }) => theme.breakpoint.md}) {
-      padding: 0 6rem;
+      padding-right: 5%;
+      padding-left: 5%;
     }
   }
 `;

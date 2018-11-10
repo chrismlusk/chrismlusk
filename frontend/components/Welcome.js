@@ -1,22 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Label } from './styles';
+import { SectionStyles, Label } from './styles';
 
-const WelcomeStyles = styled.section`
-  max-width: 1000px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: flex-start;
-  min-height: 100vh;
-  margin: 0px auto;
-  padding: 150px 0px;
-`;
+const WelcomeStyles = styled(SectionStyles)``;
 
 const MyName = styled.h1`
   margin: 0;
   font-size: 3rem;
-  text-shadow: 3px -2px 0 rgba(0, 0, 0, .08);
+  text-shadow: 3px -2px 0 rgba(0, 0, 0, .1);
 
   @media (min-width: ${({ theme }) => theme.breakpoint.sm}) {
     font-size: 4rem;
@@ -45,9 +36,7 @@ const MyBlurb = styled.p`
   margin-top: 2rem;
   font-size: 1.125rem;
 
-  @media (min-width: ${({ theme }) => theme.breakpoint.md}) {
-    max-width: 50%;
-  }
+  @media (min-width: ${({ theme }) => theme.breakpoint.md}) {}
 `;
 
 const Welcome = props => (

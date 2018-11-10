@@ -12,10 +12,8 @@ class Page extends Component {
           <ResetStyles />
           <GlobalStyles />
           <Meta />
-          <ContainerStyles>
-            <Header />
-            <main>{this.props.children}</main>
-          </ContainerStyles>
+          <Header />
+          <main>{this.props.children}</main>
         </Fragment>
       </ThemeProvider>
     );

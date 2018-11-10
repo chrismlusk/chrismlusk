@@ -1,9 +1,10 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import { SectionStyles } from '../components/styles';
 
 const Projects = props => (
-  <Fragment>
+  <SectionStyles>
     Projects coming soon!
-  </Fragment>
+  </SectionStyles>
 );
 
 export default Projects;
