@@ -2,17 +2,16 @@ import styled from 'styled-components';
 
 const ContentStyles = styled.div`
   color: ${({ theme }) => theme.body.color};
-  font-size: 1.1rem;
+  font-size: 1.075rem;
 
   @media (min-width: ${({ theme }) => theme.breakpoint.lg}) {
-    font-size: 1.175rem;
+    font-size: 1.15rem;
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoint.xl}) {
     font-size: 1.25rem;
   }
 
-  blockquote,
   p,
   ol,
   ul {
@@ -25,7 +24,7 @@ const ContentStyles = styled.div`
   h2,
   h3,
   h4 {
-    margin-top: ${({ theme }) => parseFloat(theme.spacer) * 2}rem;
+    margin-top: 2rem;
 
     &:first-child {
       margin-top: 0;
@@ -42,29 +41,23 @@ const ContentStyles = styled.div`
     margin-right: 2em;
     margin-left: 2em;
     list-style: disc outside;
-  }
 
-  ul {
     li + li {
       margin-top: .25em;
     }
   }
 
-  a {
+  a:not(.button) {
     font-weight: 700;
-    border-bottom: 1px solid
-      ${({ theme }) => theme.link.borderColor};
 
     &:hover,
     &:focus {
       background-color: ${({ theme }) => theme.link.hover.bg};
-      border-bottom-color: ${({ theme }) => theme.link.hover.borderColor};
     }
 
     &:active {
-      color: ${({ theme }) => theme.link.active.color};
+      color: ${({ theme }) => theme.body.color};
       background-color: ${({ theme }) => theme.link.active.bg};
-      border-bottom-color: ${({ theme }) => theme.link.active.borderColor};
     }
   }
 `;

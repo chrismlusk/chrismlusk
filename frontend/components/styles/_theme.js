@@ -5,7 +5,7 @@ const _ = {} // theme object
 
 _.color = {
   white: `#fff`,
-  gray100: `#f8f9fa`,
+  gray100: `#f7f8f9`,
   gray200: `#e9ecef`,
   gray300: `#dee2e6`,
   gray400: `#c7c8ca`,
@@ -41,30 +41,24 @@ _.spacer =                  `1rem`;
 
 _.body = {
   bg: _.color.white,
-  color: _.color.gray900
+  color: _.color.gray800
 };
 
 
 // Link
 
 _.link = {
-  borderWidth: `1px`,
-  borderColor: `#f5cac4`,
-  color: _.primary,
-  decoration: `none`
+  color: _.primary
 };
 
 _.link.hover = {
   bg: `transparent`,
-  borderColor: `transparent`,
-  color: _.body.color,
-  decoration: `none`
+  color: _.body.color
 };
 
 _.link.active = {
   color: _.body.color,
-  bg: `rgba(0, 0, 0, .08)`,
-  borderColor: `transparent`
+  bg: `rgba(0, 0, 0, .08)`
 }
 
 
@@ -85,17 +79,6 @@ _.breakpoint = {
   xl:  `1200px`
 };
 
-
-// Grid containers
-
-_.container = {
-  sm:  `540px`,
-  md:  `720px`,
-  lg:  `920px`,
-  xl:  `1080px`
-};
-
-
 // Components
 
 _.border = {
@@ -103,11 +86,6 @@ _.border = {
   width: `1px`,
   color: _.color.gray300,
   radius: `.25rem`
-};
-
-_.boxShadow = {
-  base: `0 .5rem 1rem rgba(0, 0, 0, .15)`,
-  hover: `0 1rem 3rem rgba(0, 0, 0, .175)`
 };
 
 _.transition = {
@@ -156,22 +134,6 @@ _.heading = {
   fontWeight: 700,
   lineHeight: _.lineHeight.tightest,
   color: `inherit`
-};
-
-_.hr ={
-  borderColor: `rgba(0, 0, 0, .1)`
-};
-
-
-// Buttons
-
-_.btn = {
-  paddingY: `.375rem`,
-  paddingX: `.75rem`,
-  fontSize: _.fontSize.base,
-  fontWeight: 400,
-  lineHeight: _.lineHeight.normal,
-  borderWidth: _.border.width,
 };
 
 // Nav

@@ -11,6 +11,7 @@ const Button = styled.div`
     color: ${({ theme }) => theme.primary};
     font-family: ${({ theme }) => theme.fontFamily.mono};
     font-size: 1em;
+    font-weight: 700;
     line-height: 1.5;
     padding: .75rem 1.5rem;
 
@@ -18,6 +19,10 @@ const Button = styled.div`
     &:focus {
       background-color: ${({ theme }) => theme.primary};
       color: ${({ theme }) => theme.color.white};
+    }
+
+    &:active {
+      transform: scale(.99) translateY(1px);
     }
   }
 `;
