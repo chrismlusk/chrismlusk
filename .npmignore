@@ -1,0 +1,6 @@
+# https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package
+
+node_modules
+node_modules/*
+
+.editorconfig
