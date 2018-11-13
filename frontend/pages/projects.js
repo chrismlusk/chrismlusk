@@ -1,10 +1,11 @@
-import React from 'react';
-import { SectionStyles } from '../components/styles';
+import React, { Fragment } from 'react';
+import { Projects } from '../components';
+import { SectionStyles, ContentStyles, FullGrid } from '../components/styles';
 
-const Projects = props => (
-  <SectionStyles>
-    Projects coming soon!
-  </SectionStyles>
+const ProjectsPage = props => (
+  <Fragment>
+    <Projects />
+  </Fragment>
 );
 
-export default Projects;
+export default ProjectsPage;

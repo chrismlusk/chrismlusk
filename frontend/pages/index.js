@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Welcome } from '../components';
+import { Welcome, AboutMe, Projects } from '../components';
 
 const Home = props => (
   <Fragment>

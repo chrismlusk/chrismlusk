@@ -1,10 +1,10 @@
-import React from 'react';
-import { SectionStyles } from '../components/styles';
+import React, { Fragment } from 'react';
+import { AboutMe } from '../components';
 
 const About = props => (
-  <SectionStyles>
-    About coming soon!
-  </SectionStyles>
+  <Fragment>
+    <AboutMe />
+  </Fragment>
 );
 
 export default About;
