@@ -33,7 +33,44 @@ const GlobalStyles = createGlobalStyle`
     font-style: normal;
   }
 
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+  }
+
+  article, aside, figcaption, figure, footer, header, main, nav, section {
+    display: block;
+  }
+
+  [tabindex="-1"]:focus {
+    outline: 0 !important;
+  }
+
+  html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    min-height: 100vh;
+  }
+
+  body {
+    margin: 0;
+    font-family: ${({ theme }) => theme.fontFamily.sans};
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: ${({ theme }) => theme.lineHeight.normal};
+    color: ${({ theme }) => theme.body.color};
+    text-align: left;
+    background-color: ${({ theme }) => theme.body.bg};
+  }
+
   h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
     margin-bottom: ${({ theme }) => theme.heading.marginBottom};
     font-family: ${({ theme }) => theme.heading.fontFamily};
     font-weight: ${({ theme }) => theme.heading.fontWeight};
@@ -41,44 +78,54 @@ const GlobalStyles = createGlobalStyle`
     color: inherit;
   }
 
-  h1 { font-size: ${({ theme }) => theme.fontSize.h1}; }
-  h2 { font-size: ${({ theme }) => theme.fontSize.h2}; }
-  h3 { font-size: ${({ theme }) => theme.fontSize.h3}; }
-  h4 { font-size: ${({ theme }) => theme.fontSize.h4}; }
-  h5 { font-size: ${({ theme }) => theme.fontSize.h5}; }
-  h6 { font-size: ${({ theme }) => theme.fontSize.h6}; }
+  h1 { font-size: 2.25em; }
+  h2 { font-size: 1.75em; }
+  h3 { font-size: 1.5em; }
+  h4 { font-size: 1.25em; }
+  h5 { font-size: 1.125em; }
+  h6 { font-size: 1em; }
 
-  hr {
-    margin-top: ${({ theme }) => theme.spacer};
-    margin-bottom: ${({ theme }) => theme.spacer};
-    border: 0;
-    border-top: 1px solid ${({ theme }) =>
-  theme.hr.borderColor};
+  p,
+  ol,
+  ul {
+    margin: 0;
   }
 
-  small {
-    font-size: 80%;
-    font-weight: 400;
+  ol,
+  ul {
+    padding: 0;
+    list-style: none;
   }
 
-  #test {
-    background-image: url("/static/images/squiggles.svg");
-    background-size: .75rem;
-    background-position: top left;
+  b,
+  strong {
+    font-weight: bolder;
   }
 
-  main {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    gap: 1rem 1rem;
-    margin: 0 auto;
-    padding-right: 1rem;
-    padding-left: 1rem;
+  a {
+    color: ${({ theme }) => theme.primary};
+    text-decoration: none;
+    background-color: transparent;
+    transition: ${({ theme }) => theme.transition.base};
 
-    @media (min-width: ${({ theme }) => theme.breakpoint.md}) {
-      padding-right: 5%;
-      padding-left: 5%;
+    &:hover {
+      color: ${({ theme }) => theme.body.color};
+      text-decoration: none;
     }
+  }
+
+  img {
+    border-style: none;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+
+  svg {
+    width: 1em;
+    height: 1em;
+    overflow: hidden
+    vertical-align: middle;
   }
 `;
 
