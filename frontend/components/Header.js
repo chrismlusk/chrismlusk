@@ -2,6 +2,7 @@ import React from 'react';
 import Router from 'next/router';
 import styled from 'styled-components';
 import Navbar from './Navbar';
+import { ContainerStyles } from './styles';
 
 // Router.events.on('routeChangeStart', () => console.log('routeChangeStart'));
 // Router.events.on('routeChangeComplete', () => console.log('routeChangeDone'));
@@ -22,7 +23,9 @@ const HeaderStyles = styled.header`
 
 const Header = () => (
   <HeaderStyles>
-    <Navbar />
+    <ContainerStyles>
+      <Navbar />
+    </ContainerStyles>
   </HeaderStyles>
 );
 

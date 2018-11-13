@@ -7,25 +7,25 @@ import { Button } from './styles';
 
 const NavLogoStyles = styled.div`
   a {
-    width: 2.5rem;
-    height: auto;
     display: block;
   }
 
   svg {
     fill: ${({ theme }) => theme.body.color};
     transition: ${({ theme }) => theme.transition.base};
+    width: 2rem;
+    height: 2rem;
+
+    @media (min-width: ${({ theme }) => theme.breakpoint.md}) {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
 
     &:hover,
     &:focus {
       fill: ${({ theme }) => theme.color.gray600};
     }
   }
-`;
-
-const NavMenuStyles = styled.div`
-  display: flex;
-  align-items: center;
 `;
 
 const NavListStyles = styled.ul`
@@ -101,7 +101,7 @@ const NavButtonStyles = styled(Button)`
     font-size: inherit;
     font-weight: inherit;
     letter-spacing: inherit;
-    text-transform: inherit;
+    text-transform: none;
   }
 `;
 
@@ -113,13 +113,11 @@ const NavbarStyles = styled.nav`
   font-size: .875rem;
   font-weight: 700;
   letter-spacing: 0.05rem;
-  padding: 0 1rem;
   text-transform: uppercase;
   width: 100%;
 
   @media (min-width: ${({ theme }) => theme.breakpoint.md}) {
     height: 100px;
-    padding: 0 5%;
   }
 `;
 
@@ -166,19 +164,21 @@ const NavList = () => (
 
 const HireMeButton = () => (
   <NavButtonStyles>
-    <Link href="/hire-me">
-      <a>Hire Me</a>
-    </Link>
+    <a
+      href="/static/resume.pdf"
+      target="_blank"
+      rel="nofollow noopener noreferrer"
+    >
+      Resume
+    </a>
   </NavButtonStyles>
 );
 
 const Navbar = () => (
   <NavbarStyles>
     <NavLogo />
-
-      <NavList />
-      <HireMeButton />
-
+    <NavList />
+    <HireMeButton />
   </NavbarStyles>
 );
 
