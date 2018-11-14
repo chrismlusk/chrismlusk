@@ -19,8 +19,7 @@ const Contact = () => (
           I'm currently looking for a full-time software developer role in
           Chicago.
         </LeadGraph>
-        <p>Whether you have an opportunity you want to discuss or you
-          just want to say hi, my inbox is always open.
+        <p>Whether you have an opportunity you want to discuss or you just want to say hi, my inbox is always open.
         </p>
         <Button>
           <a
