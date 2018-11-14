@@ -78,6 +78,10 @@ const GlobalStyles = createGlobalStyle`
     }
   }
 
+  figure {
+    margin: 0;
+  }
+
   img {
     border-style: none;
     height: auto;
@@ -88,7 +92,8 @@ const GlobalStyles = createGlobalStyle`
   svg {
     width: 1em;
     height: 1em;
-    overflow: hidden
+    overflow: hidden;
+    position: relative;
     vertical-align: middle;
   }
 `;
