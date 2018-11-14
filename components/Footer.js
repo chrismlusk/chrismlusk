@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { ContainerStyles } from './styles';
+import { jellyPop, ContainerStyles } from './styles';
 import { GitHub, LinkedIn, Instagram, Twitter } from './icons';
 
 const SocialLinks = styled.div`
@@ -40,16 +40,39 @@ const SocialItem = styled.li`
   }
 
   a {
+    align-items: center;
     color: ${({ theme }) => theme.color.gray500};
-    display: block;
-    padding: .75rem 1rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 3rem;
+    height: 3rem;
 
     @media (min-width: ${({ theme }) => theme.breakpoint.md}) {
       padding: .5rem;
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+
+    &::before {
+      background-color: ${({ theme }) => theme.primary};
+      border-radius: 50%;
+      content: '';
+      display: block;
+      opacity: 0;
+      position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
     }
 
     &:hover {
-      color: ${({ theme }) => theme.primary};
+      color: ${({ theme }) => theme.color.white};
+
+      &::before {
+        animation: ${jellyPop} 860ms linear both;
+      }
     }
   }
 
