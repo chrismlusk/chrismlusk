@@ -45,30 +45,6 @@ _.body = {
 };
 
 
-// Link
-
-_.link = {
-  color: _.primary
-};
-
-_.link.hover = {
-  bg: `transparent`,
-  color: _.body.color
-};
-
-_.link.active = {
-  color: _.body.color,
-  bg: `rgba(0, 0, 0, .08)`
-}
-
-
-// Paragraph
-
-_.paragraph = {
-  marginBottom: `1em`
-};
-
-
 // Grid breakpoints
 
 _.breakpoint = {
@@ -120,39 +96,6 @@ _.lineHeight = {
   normal: 1.5,
   loose: 1.6666
 };
-
-_.fontWeight = {
-  light: 300,
-  normal: 400,
-  bold: 700,
-  black: 900
-}
-
-_.heading = {
-  marginBottom: `${parseFloat(_.spacer) / 2}rem`,
-  fontFamily: `inherit`,
-  fontWeight: 700,
-  lineHeight: _.lineHeight.tightest,
-  color: `inherit`
-};
-
-// Nav
-
-_.nav = {};
-
-_.nav.link = {
-  paddingY: `.375rem`,
-  paddingX: `.75rem`,
-  fontWeight: 700,
-  color: _.body.color,
-};
-
-_.nav.link.hover = {
-  color: _.link.color,
-};
-
-
-
 
 
 
