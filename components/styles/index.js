@@ -1,5 +1,6 @@
 // Globals
 export { default as theme } from './_theme';
+export * from './_animations';
 export { default as GlobalStyles } from './GlobalStyles';
 
 // Wrappers
