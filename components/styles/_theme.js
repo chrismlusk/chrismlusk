@@ -1,4 +1,4 @@
-const _ = {} // theme object
+const _ = {}; // theme object
 
 
 // Base colors
