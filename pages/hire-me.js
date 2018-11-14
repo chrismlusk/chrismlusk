@@ -5,8 +5,42 @@ import {
   FullGrid,
   ContentStyles,
   LeadGraph,
-  Highlight
+  Highlight,
+  wave
 } from '../components/styles';
+
+const Wave = styled.span`
+  display: inline-block;
+  padding-right: 4rem;
+  position: relative;
+
+  .wave {
+    cursor: default;
+    opacity: 0;
+    position: absolute;
+      top: 50%;
+      right: 0;
+    transform: translate3d(-5rem, -50%, 0);
+    transition: ${({ theme }) => theme.transition.base};
+  }
+
+  .wave-icon {
+    font-size: .875em;
+    display: block;
+    transform-origin: 50% 90%;
+  }
+
+  &:hover {
+    .wave {
+      opacity: 1;
+      transform: translate3d(0, -50%, 0);
+    }
+
+    .wave-icon {
+      animation: ${wave} 120ms ease-in-out alternate infinite;
+    }
+  }
+`;
 
 const LeadBlurb = styled(LeadGraph)`
   padding-bottom: 1em;
@@ -17,7 +51,14 @@ const HireMe = props => (
   <SectionStyles>
     <FullGrid>
       <ContentStyles>
-        <h1>Hi! I'm <Highlight>Chris Lusk</Highlight>.</h1>
+        <h1>
+          <Wave>
+            Hi! I'm <Highlight>Chris Lusk</Highlight>.
+            <span className="wave" aria-hidden="true">
+              <span className="wave-icon">👋🏼</span>
+            </span>
+          </Wave>
+        </h1>
         <LeadBlurb>I'm a full-stack software developer who enjoys working at the intersection of engineering and design. I'm ready for a new opportunity. Let's work together!</LeadBlurb>
         <h2>What</h2>
         <p>I'm looking for a front-end focused engineering role.</p>

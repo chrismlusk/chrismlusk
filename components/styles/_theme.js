@@ -1,4 +1,4 @@
-const _ = {} // theme object
+const _ = {}; // theme object
 
 
 // Base colors
@@ -17,7 +17,6 @@ _.color = {
   black: `#000`,
 
   red: `#b02f1d`,
-  redLight: `#fc432a`,
   blue: `#2f1db0`, // or try 1d75fc
   green: `#1db02f` // or try 1db06a
 };
@@ -32,40 +31,11 @@ _.light =                   _.color.gray100;
 _.dark =                    _.color.gray800;
 
 
-// Spacing
-
-_.spacer =                  `1rem`;
-
-
 // Body
 
 _.body = {
   bg: _.color.white,
   color: _.color.gray800
-};
-
-
-// Link
-
-_.link = {
-  color: _.primary
-};
-
-_.link.hover = {
-  bg: `transparent`,
-  color: _.body.color
-};
-
-_.link.active = {
-  color: _.body.color,
-  bg: `rgba(0, 0, 0, .08)`
-}
-
-
-// Paragraph
-
-_.paragraph = {
-  marginBottom: `1em`
 };
 
 
@@ -79,14 +49,8 @@ _.breakpoint = {
   xl:  `1200px`
 };
 
-// Components
 
-_.border = {
-  base: `1px solid ${_.color.gray300}`,
-  width: `1px`,
-  color: _.color.gray300,
-  radius: `.25rem`
-};
+// Components
 
 _.transition = {
   speed: `116ms`,
@@ -102,58 +66,6 @@ _.fontFamily = {
   serif: `Georgia, serif`,
   mono: `'SF Mono', 'Fira Mono', 'Roboto Mono', Monaco, monospace;`
 };
-
-_.fontSize = {
-  base: `1rem`,
-  small: `80%`,
-  h1: `2.5rem`,
-  h2: `2rem`,
-  h3: `1.75rem`,
-  h4: `1.5rem`,
-  h5: `1.25rem`,
-  h6: `1rem`
-};
-
-_.lineHeight = {
-  tightest: 1.1,
-  tight: 1.3333,
-  normal: 1.5,
-  loose: 1.6666
-};
-
-_.fontWeight = {
-  light: 300,
-  normal: 400,
-  bold: 700,
-  black: 900
-}
-
-_.heading = {
-  marginBottom: `${parseFloat(_.spacer) / 2}rem`,
-  fontFamily: `inherit`,
-  fontWeight: 700,
-  lineHeight: _.lineHeight.tightest,
-  color: `inherit`
-};
-
-// Nav
-
-_.nav = {};
-
-_.nav.link = {
-  paddingY: `.375rem`,
-  paddingX: `.75rem`,
-  fontWeight: 700,
-  color: _.body.color,
-};
-
-_.nav.link.hover = {
-  color: _.link.color,
-};
-
-
-
-
 
 
 export default _;

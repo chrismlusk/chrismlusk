@@ -52,12 +52,12 @@ const ContentStyles = styled.div`
 
     &:hover,
     &:focus {
-      background-color: ${({ theme }) => theme.link.hover.bg};
+      background-color: transparent;
     }
 
     &:active {
       color: ${({ theme }) => theme.body.color};
-      background-color: ${({ theme }) => theme.link.active.bg};
+      background-color: rgba(0, 0, 0, .08);
     }
   }
 `;
