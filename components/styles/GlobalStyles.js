@@ -1,38 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
-  @font-face {
-    font-family: 'ATC Overlook';
-    src: url('/static/fonts/atcoverlook-bold.woff2') format('woff2'),
-         url('/static/fonts/atcoverlook-bold.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'ATC Overlook';
-    src: url('/static/fonts/atcoverlook-regular.woff2') format('woff2'),
-         url('/static/fonts/atcoverlook-regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'ATC Overlook';
-    src: url('/static/fonts/atcoverlook-thin.woff2') format('woff2'),
-         url('/static/fonts/atcoverlook-thin.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Fira Mono';
-    src: url('/static/fonts/firamono-regular.woff2') format('woff2'),
-         url('/static/fonts/firamono-regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-
   *,
   *::before,
   *::after {
@@ -42,10 +10,6 @@ const GlobalStyles = createGlobalStyle`
 
   article, aside, figcaption, figure, footer, header, main, nav, section {
     display: block;
-  }
-
-  [tabindex="-1"]:focus {
-    outline: 0 !important;
   }
 
   html {
@@ -63,7 +27,7 @@ const GlobalStyles = createGlobalStyle`
     font-family: ${({ theme }) => theme.fontFamily.sans};
     font-size: 1rem;
     font-weight: 400;
-    line-height: ${({ theme }) => theme.lineHeight.normal};
+    line-height: 1.5;
     color: ${({ theme }) => theme.body.color};
     text-align: left;
     background-color: ${({ theme }) => theme.body.bg};
@@ -71,10 +35,10 @@ const GlobalStyles = createGlobalStyle`
 
   h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
-    margin-bottom: ${({ theme }) => theme.heading.marginBottom};
-    font-family: ${({ theme }) => theme.heading.fontFamily};
-    font-weight: ${({ theme }) => theme.heading.fontWeight};
-    line-height: ${({ theme }) => theme.heading.lineHeight};
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.1;
     color: inherit;
   }
 
