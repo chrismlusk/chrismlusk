@@ -5,7 +5,6 @@ import {
   SectionStyles,
   FullGrid,
   ContentStyles,
-  Label,
   Button
 } from './styles';
 
@@ -27,7 +26,7 @@ const WelcomeStyles = styled(ContentStyles)`
 
 const MyTitle = styled.div`
   color: inherit;
-  font-size: 2.125em;
+  font-size: 2.25em;
   font-weight: 700;
   line-height: 1.1;
 
@@ -64,24 +63,26 @@ const MyButton = styled(Button)`
   }
 `;
 
-const Welcome = props => (
-    <SectionStyles id="welcome">
-      <FullGrid>
-        <WelcomeStyles>
-          <MyTitle>
-            Hi, my name is <span>Chris Lusk</span>. I build things for people.
-          </MyTitle>
-          <MyBlurb>
-            I'm a full-stack software developer based in Chicago who enjoys working at the intersection of engineering and design. I am looking for my next opportunity.
-          </MyBlurb>
-          <MyButton>
-            <Link href="/hire-me">
-              <a className="button">Hire Me</a>
-            </Link>
-          </MyButton>
-        </WelcomeStyles>
-      </FullGrid>
-    </SectionStyles>
+const Welcome = () => (
+  <SectionStyles id="welcome">
+    <FullGrid>
+      <WelcomeStyles>
+        <MyTitle>
+          Hi, my name is <span>Chris Lusk</span>. I build things for people.
+        </MyTitle>
+        <MyBlurb>
+          I'm a full-stack software developer based in Chicago who enjoys
+          working at the intersection of engineering and design. I am looking
+          for my next opportunity.
+        </MyBlurb>
+        <MyButton>
+          <Link prefetch href="/hire-me">
+            <a className="button">Hire Me</a>
+          </Link>
+        </MyButton>
+      </WelcomeStyles>
+    </FullGrid>
+  </SectionStyles>
 );
 
 export default Welcome;

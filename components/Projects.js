@@ -1,16 +1,14 @@
 import React from 'react';
-import styled from 'styled-components';
 import SingleProject from './SingleProject';
 import {
   SectionStyles,
   FullGrid,
-  HalfGrid,
   ContentStyles,
   Heading
 } from './styles';
 import { projectData } from '../data';
 
-const Projects = props => (
+const Projects = () => (
   <SectionStyles id="projects">
     <FullGrid>
       <Heading>What I've Built</Heading>

@@ -113,7 +113,7 @@ const Footer = () => (
   <FooterStyles>
     <ContainerStyles>
       <FooterLinks />
-      <p>&copy; 2018 by Chris Lusk</p>
+      <p>&copy; {(new Date()).getFullYear()} by Chris Lusk</p>
     </ContainerStyles>
   </FooterStyles>
 );

@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 import {
   SectionStyles,
   ContentStyles,
@@ -9,16 +8,12 @@ import {
   LeadGraph
 } from './styles';
 
-const HalfGridOne = styled(HalfGrid)``;
-
-const HalfGridTwo = styled(HalfGrid)``;
-
-const AboutMe = props => (
+const AboutMe = () => (
   <SectionStyles id="about">
     <FullGrid>
       <Heading>About Me</Heading>
     </FullGrid>
-    <HalfGridOne>
+    <HalfGrid>
       <ContentStyles>
         <LeadGraph>
           I'm a software developer with a background in design and journalism.
@@ -30,10 +25,10 @@ const AboutMe = props => (
 
         <p>When I'm not coding or messing around with new CSS features, I'm usually reading, listening to podcasts, playing music, or catching up on TV I forgot to watch.</p>
       </ContentStyles>
-    </HalfGridOne>
-    <HalfGridTwo>
+    </HalfGrid>
+    <HalfGrid>
       <img src="/static/images/me_2018_bw.jpg" alt="Chris Lusk" />
-    </HalfGridTwo>
+    </HalfGrid>
   </SectionStyles>
 );
 

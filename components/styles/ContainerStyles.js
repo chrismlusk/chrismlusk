@@ -8,8 +8,6 @@ const ContainerStyles = styled.div`
   @media (min-width: ${({ theme }) => theme.breakpoint.md}) {
     padding: 0 2rem;
   }
-
-  @media (min-width: ${({ theme }) => theme.breakpoint.xl}) {}
 `;
 
 export default ContainerStyles;

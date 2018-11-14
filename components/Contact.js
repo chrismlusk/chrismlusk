@@ -8,7 +8,7 @@ import {
   Button
 } from './styles';
 
-const Contact = props => (
+const Contact = () => (
   <SectionStyles id="contact">
     <FullGrid>
       <Heading>Say Hello</Heading>

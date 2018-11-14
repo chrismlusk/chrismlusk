@@ -140,22 +140,22 @@ const NavLink = withRouter(({ router, children, ...props }) => (
 const NavList = () => (
   <NavListStyles>
     <li>
-      <NavLink href="/">
+      <NavLink prefetch href="/">
         <a><span>Home</span></a>
       </NavLink>
     </li>
     <li>
-      <NavLink href="/about">
+      <NavLink prefetch href="/about">
         <a><span>About</span></a>
       </NavLink>
     </li>
     <li>
-      <NavLink href="/projects">
+      <NavLink prefetch href="/projects">
         <a><span>Projects</span></a>
       </NavLink>
     </li>
     <li>
-      <NavLink href="/contact">
+      <NavLink prefetch href="/contact">
         <a><span>Contact</span></a>
       </NavLink>
     </li>
