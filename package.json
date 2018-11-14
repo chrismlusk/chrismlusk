@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next -p 8080",
     "build": "next build",
-    "start": "next start -p $PORT",
+    "start": "next start",
     "test": "NODE_ENV=test jest --watch",
     "heroku-postbuild": "npm run build"
   },
@@ -14,8 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "next": "^7.0.2",
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0",
-    "styled-components": "^4.0.3"
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "styled-components": "^4.1.1"
   }
 }
