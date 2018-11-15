@@ -15,11 +15,11 @@ const Projects = () => (
     </FullGrid>
     <FullGrid>
       <ContentStyles>
-        <p>A few examples of my work. For more, please visit my <a href="https://github.com/chrismlusk" target="_blank" rel="nofollow noopener noreferrer">GitHub</a>.</p>
+        <p>Some examples of my work. To see more, please visit my <a href="https://github.com/chrismlusk?tab=repositories" target="_blank" rel="nofollow noopener noreferrer">GitHub</a>.</p>
       </ContentStyles>
     </FullGrid>
-    {projectData.map(project => (
-      <SingleProject key={project.id} project={project} />
+    {projectData.map((project, index) => (
+      <SingleProject key={index} project={project} number={index} />
     ))}
   </SectionStyles>
 );
