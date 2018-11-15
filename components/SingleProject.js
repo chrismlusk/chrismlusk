@@ -70,11 +70,12 @@ const ProjectBody = styled.div`
   margin-bottom: 2rem;
 
   h3 {
-    font-size: 1.5em;
+    font-size: 1.375em;
   }
 
   p {
     font-size: 1rem;
+    color: ${({ theme }) => theme.color.gray600};
   }
 `;
 
@@ -86,7 +87,6 @@ const ProjectFooter = styled.div`
     flex-wrap: wrap;
 
     li {
-      color: ${({ theme }) => theme.color.gray600};
       font-family: ${({ theme }) => theme.fontFamily.mono};
       font-size: .75em;
       margin-right: .875rem;
@@ -98,11 +98,11 @@ const ProjectFooter = styled.div`
   }
 `;
 
-const SingleProject = ({ project }) => (
+const SingleProject = ({ project, number }) => (
   <Project>
     <ProjectInner>
       <ProjectHeader>
-        <ProjectNumber>{`${(`0${project.id}`).slice(-2)}.`}</ProjectNumber>
+        <ProjectNumber>{`${(`0${number + 1}`).slice(-2)}.`}</ProjectNumber>
         <ProjectIcons>
           {project.demo && (
             <a href={project.demo} target="_blank" rel="nofollow noopener noreferrer" aria-label="External link">
