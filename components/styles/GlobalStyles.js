@@ -43,10 +43,10 @@ const GlobalStyles = createGlobalStyle`
   }
 
   h1 { font-size: 2.25em; }
-  h2 { font-size: 1.75em; }
-  h3 { font-size: 1.5em; }
-  h4 { font-size: 1.25em; }
-  h5 { font-size: 1.125em; }
+  h2 { font-size: 1.5em; }
+  h3 { font-size: 1.25em; }
+  h4 { font-size: 1.125em; }
+  h5 { font-size: 1em; }
   h6 { font-size: 1em; }
 
   p,
