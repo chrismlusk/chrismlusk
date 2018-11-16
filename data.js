@@ -10,7 +10,7 @@ export const projectData = [
 
   {
     name: `Q&A`,
-    description: `A virtual classroom with video chat, code/text editor, and whiteboard for collaboration. This was my capstone at Fullstack Academy.`,
+    description: `A virtual classroom with video chat, code/text editor, and whiteboard for collaboration. This was my capstone project at Fullstack Academy.`,
     demo: 'https://q-and-a-fullstack.herokuapp.com',
     github: 'https://github.com/hczj/q-and-a',
     tech: ['WebRTC', 'Socket.io', 'React', 'Redux']
@@ -26,7 +26,7 @@ export const projectData = [
 
   {
     name: `PubsPlus`,
-    description: `A web store for the university that required the design, e-commerce system, and two-factor authentication to all be customized.`,
+    description: `A web store for the University of Illinois that required the design, e-commerce system, and two-factor authentication to all be customized.`,
     demo: 'https://pubsplus.illinois.edu',
     tech: ['Sass', 'C#', 'DotNetNuke', 'Angular']
   },
@@ -41,14 +41,14 @@ export const projectData = [
 
   {
     name: `Absolute Cleaning System`,
-    description: `Landing page for a client's ad campaign. In addition to the design work, I used Vue.js to build a cost comparison calculator.`,
+    description: `Landing page for a client's ad campaign. In addition to the design work, I used Vue.js to build a cost-comparison calculator.`,
     demo: 'https://www.enviroxclean.com/campaigns/absolute-cleaning-system',
     tech: ['Sass', 'Vue.js', 'DotNetNuke', 'Animation']
   },
 
   {
     name: `PongPal`,
-    description: `A small machine-learning experiment to teach an A.I. to play the game Pong in the browser. Built during a weekend hackathon at a Fullstack Academy.`,
+    description: `A small machine-learning experiment to teach an A.I. to play the game Pong in the browser. Built during a weekend hackathon at Fullstack Academy.`,
     demo: 'https://www.youtube.com/watch?v=aaNyoI_B2rU',
     github: 'https://github.com/chrismlusk/stackathon',
     tech: ['JavaScript', 'TensorFlow.js', 'Python']
