@@ -11,8 +11,11 @@ import {
 
 const Wave = styled.span`
   display: inline-block;
-  padding-right: 4rem;
   position: relative;
+
+  @media (min-width: ${({ theme }) => theme.breakpoint.md}) {
+    padding-right: 4rem;
+  }
 
   .wave {
     cursor: default;
@@ -61,7 +64,7 @@ const HireMe = props => (
         </h1>
         <LeadBlurb>I'm a full-stack software developer who enjoys working at the intersection of engineering and design. I'm ready for a new opportunity. Let's work together!</LeadBlurb>
         <h2>What</h2>
-        <p>I'm looking for a front-end focused engineering role.</p>
+        <p>I'm looking for a full-stack engineering role.</p>
         <p>Ideally you:</p>
         <ul>
           <li>Have a diverse team with diverse leadership</li>
@@ -76,7 +79,7 @@ const HireMe = props => (
         <p>I am available December 2018.</p>
 
         <h2>Where</h2>
-        <p>Chicago, Illinois. I'm also open to remote roles.</p>
+        <p>Chicago, Illinois. I am open to remote positions.</p>
 
         <h2>Why</h2>
         <p>I'm a developer with experience throughout the whole stack. I value pair programming and mentoring, so collaboration with colleagues is essential to me. I have a deep understanding of design, and I care about building intuitive user experiences. I enjoy writing CSS. I believe accessibility and performance are vital because the internet should be available to everyone. I love learning new technologies, but we should be more concerned with choosing the right tool for the job.</p>
