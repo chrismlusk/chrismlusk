@@ -32,6 +32,12 @@ const MyFigure = styled.figure`
   }
 `;
 
+const Secret = styled.span`
+  @media (min-width: ${({ theme }) => theme.breakpoint.md}) {
+    font-weight: 700;
+  }
+`;
+
 class AboutMe extends Component {
   figure = React.createRef();
 
@@ -84,7 +90,7 @@ class AboutMe extends Component {
 
               <p>After honing my front-end skills at <a href="https://www.accuraty.com" target="_blank" rel="nofollow noopener noreferrer">Accuraty Solutions</a>, I attended <a href="https://www.fullstackacademy.com" target="_blank" rel="nofollow noopener noreferrer">Fullstack Academy</a> in Chicago to better learn full-stack development. I work there now as a teaching fellow helping bootcamp students learn JavaScript.</p>
 
-              <p>When I'm not <strong onMouseEnter={() => this.showHidden('computer')} onMouseLeave={this.hideHidden}>messing around</strong> with new CSS features, I like to <strong onMouseEnter={() => this.showHidden('reading')} onMouseLeave={this.hideHidden}>read books</strong>, listen to podcasts, <strong onMouseEnter={() => this.showHidden('keyboard')} onMouseLeave={this.hideHidden}>play music</strong>, and catch up on TV shows I forgot to watch.</p>
+              <p>When I'm not <Secret onMouseEnter={() => this.showHidden('computer')} onMouseLeave={this.hideHidden}>messing around</Secret> with new CSS features, I like to <Secret onMouseEnter={() => this.showHidden('reading')} onMouseLeave={this.hideHidden}>read books</Secret>, listen to podcasts, <Secret onMouseEnter={() => this.showHidden('keyboard')} onMouseLeave={this.hideHidden}>play music</Secret>, and catch up on TV shows I forgot to watch.</p>
             </ContentStyles>
           </HalfGrid>
           <HalfGrid>
