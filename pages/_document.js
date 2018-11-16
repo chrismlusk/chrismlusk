@@ -1,4 +1,5 @@
 /* eslint-disable class-methods-use-this */
+/* eslint-disable react/no-danger */
 
 import { Fragment } from 'react';
 import Document, { Head, Main, NextScript } from 'next/document';
@@ -11,7 +12,7 @@ export default class MyDocument extends Document {
       sheet.collectStyles(<App {...props} />)
     );
     const styleTags = sheet.getStyleElement();
-    const isProduction = process.env.NODE_ENV !== 'production';
+    const isProduction = process.env.NODE_ENV === 'production';
     return { ...page, styleTags, isProduction };
   }
 
