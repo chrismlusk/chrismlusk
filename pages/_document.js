@@ -1,3 +1,6 @@
+/* eslint-disable class-methods-use-this */
+
+import { Fragment } from 'react';
 import Document, { Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
@@ -8,7 +11,19 @@ export default class MyDocument extends Document {
       sheet.collectStyles(<App {...props} />)
     );
     const styleTags = sheet.getStyleElement();
-    return { ...page, styleTags };
+    const isProduction = process.env.NODE_ENV === 'production';
+    return { ...page, styleTags, isProduction };
+  }
+
+  setGoogleTags() {
+    return {
+      __html:`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-129304778-1');
+      `
+    };
   }
 
   render() {
@@ -53,6 +68,12 @@ export default class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          {this.props.isProduction && (
+            <Fragment>
+              <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129304778-1" />
+              <script dangerouslySetInnerHTML={this.setGoogleTags()} />
+            </Fragment>
+          )}
         </body>
       </html>
     );
