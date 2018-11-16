@@ -1,5 +1,7 @@
 import App, { Container } from 'next/app';
+import Router from 'next/router';
 import { Page } from '../components';
+import { trackPageView } from '../utils';
 
 class MyApp extends App {
   static async getInitialProps({ Component, ctx }) {
@@ -9,6 +11,10 @@ class MyApp extends App {
     }
     pageProps.query = ctx.query;
     return { pageProps };
+  }
+
+  componentDidMount() {
+    Router.events.on('routeChangeComplete', url => trackPageView(url));
   }
 
   render() {
