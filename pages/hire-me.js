@@ -1,4 +1,3 @@
-import React, { Fragment } from 'react';
 import styled from 'styled-components';
 import {
   SectionStyles,
@@ -50,7 +49,7 @@ const LeadBlurb = styled(LeadGraph)`
   border-bottom: 5px solid ${({ theme }) => theme.color.gray200};
 `;
 
-const HireMe = props => (
+const HireMe = () => (
   <SectionStyles>
     <FullGrid>
       <ContentStyles>

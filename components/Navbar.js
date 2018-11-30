@@ -107,7 +107,6 @@ const NavButtonStyles = styled(Button)`
 
 const NavbarStyles = styled.nav`
   align-items: center;
-  background-color: ${({ theme }) => theme.body.bg};
   display: flex;
   counter-reset: item 0;
   font-size: .875rem;
@@ -162,7 +161,7 @@ const NavList = () => (
   </NavListStyles>
 );
 
-const HireMeButton = () => (
+const NavButton = () => (
   <NavButtonStyles>
     <a
       href="/static/resume.pdf"
@@ -178,7 +177,7 @@ const Navbar = () => (
   <NavbarStyles>
     <NavLogo />
     <NavList />
-    <HireMeButton />
+    <NavButton />
   </NavbarStyles>
 );
 

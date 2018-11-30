@@ -1,10 +1,7 @@
-import React, { Fragment } from 'react';
-import { Welcome, AboutMe, Projects } from '../components';
+import { Welcome } from '../components';
 
-const Home = props => (
-  <Fragment>
-    <Welcome />
-  </Fragment>
+const Home = () => (
+  <Welcome />
 );
 
 export default Home;

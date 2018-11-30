@@ -1,11 +1,7 @@
-import React, { Fragment } from 'react';
-import { Contact} from '../components';
-import { SectionStyles, FullGrid, Button } from '../components/styles';
+import { Contact } from '../components';
 
-const ContactPage = props => (
-  <Fragment>
-    <Contact />
-  </Fragment>
+const ContactPage = () => (
+  <Contact />
 );
 
 export default ContactPage;
