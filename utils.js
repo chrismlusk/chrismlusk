@@ -1,6 +1,8 @@
+import { GOOGLE_ID } from './config';
+
 export function trackPageView(url) {
   try {
-    window.gtag('config', 'UA-129304778-1', {
+    window.gtag('config', `${GOOGLE_ID}`, {
       page_location: url
     });
   } catch (err) {

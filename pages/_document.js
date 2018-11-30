@@ -4,6 +4,7 @@
 import { Fragment } from 'react';
 import Document, { Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
+import { GOOGLE_ID, MY_IMG_URL } from '../config';
 
 export default class MyDocument extends Document {
   static getInitialProps({ renderPage }) {
@@ -22,7 +23,7 @@ export default class MyDocument extends Document {
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'UA-129304778-1');
+        gtag('config', '${GOOGLE_ID}');
       `
     };
   }
@@ -65,13 +66,18 @@ export default class MyDocument extends Document {
             }
           `}}/>
           {this.props.styleTags}
+          <link
+            rel="preload"
+            href={MY_IMG_URL}
+            as="image"
+          />
         </Head>
         <body>
           <Main />
           <NextScript />
           {this.props.isProduction && (
             <Fragment>
-              <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129304778-1" />
+              <script async src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ID}`} />
               <script dangerouslySetInnerHTML={this.setGoogleTags()} />
             </Fragment>
           )}
