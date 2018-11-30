@@ -15,3 +15,7 @@ export const DEFAULT_SEO = {
     cardType: 'summary'
   }
 };
+
+export const GOOGLE_ID = 'UA-129304778-1';
+
+export const MY_IMG_URL = '/static/images/me_2018_bw.jpg';

@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import { Fragment, useState, useRef } from 'react';
 import Head from 'next/head';
 import styled from 'styled-components';
 import {
@@ -9,6 +9,7 @@ import {
   Heading,
   LeadGraph
 } from './styles';
+import { MY_IMG_URL } from '../config';
 
 const MyFigure = styled.figure`
   position: relative;
@@ -38,79 +39,74 @@ const Secret = styled.span`
   }
 `;
 
-class AboutMe extends Component {
-  figure = React.createRef();
+const AboutMe = () => {
+  const figure = useRef(null);
 
-  state = {
-    imgUrl: '/static/images/me_2018_bw.jpg',
-    hiddenImgUrl: ''
-  }
+  const [imgUrl, setImgUrl] = useState('/static/images/computer-cat.gif');
 
-  hideHidden = () => {
-    this.setState({ hiddenImgUrl: '' });
-    this.figure.current.classList.remove('show-hidden');
-  }
+  const showSecretImg = type => {
+    setImgUrl(`/static/images/${type}-cat.gif`);
+    figure.current.classList.add('show-hidden');
+  };
 
-  showHidden = type => {
-    this.setState({ hiddenImgUrl: `/static/images/${type}-cat.gif` });
-    this.figure.current.classList.add('show-hidden');
-  }
+  const hideSecretImg = () => {
+    setImgUrl('');
+    figure.current.classList.remove('show-hidden');
+  };
 
-  render() {
-    return (
-      <Fragment>
-        <Head>
-          <link
-            rel="preload"
-            href="/static/images/computer-cat.gif"
-            as="image"
-          />
-          <link
-            rel="preload"
-            href="/static/images/keyboard-cat.gif"
-            as="image"
-          />
-          <link
-            rel="preload"
-            href="/static/images/reading-cat.gif"
-            as="image"
-          />
-        </Head>
-        <SectionStyles id="about">
-          <FullGrid>
-            <Heading>About Me</Heading>
-          </FullGrid>
-          <HalfGrid>
-            <ContentStyles>
-              <LeadGraph>
-                I'm a software developer with a background in design and journalism.
-              </LeadGraph>
+  return (
+    <Fragment>
+      <Head>
+        <link
+          rel="preload"
+          href="/static/images/computer-cat.gif"
+          as="image"
+        />
+        <link
+          rel="preload"
+          href="/static/images/keyboard-cat.gif"
+          as="image"
+        />
+        <link
+          rel="preload"
+          href="/static/images/reading-cat.gif"
+          as="image"
+        />
+      </Head>
+      <SectionStyles id="about">
+        <FullGrid>
+          <Heading>About Me</Heading>
+        </FullGrid>
+        <HalfGrid>
+          <ContentStyles>
+            <LeadGraph>
+              I'm a software developer with a background in design and journalism.
+            </LeadGraph>
 
-              <p>My first job after college was as a news designer for the <a href="https://www.ocregister.com" target="_blank" rel="nofollow noopener noreferrer">Orange County Register</a>, where I was fortunate to have supportive bosses who let me join the digital team as a web designer. That experience got me hooked on HTML and CSS, and I decided to change careers.</p>
+            <p>My first job after college was as a news designer for the <a href="https://www.ocregister.com" target="_blank" rel="nofollow noopener noreferrer">Orange County Register</a>, where I was fortunate to have supportive bosses who let me join the digital team as a web designer. That experience got me hooked on HTML and CSS, and I decided to change careers.</p>
 
-              <p>After honing my front-end skills at <a href="https://www.accuraty.com" target="_blank" rel="nofollow noopener noreferrer">Accuraty Solutions</a>, I attended <a href="https://www.fullstackacademy.com" target="_blank" rel="nofollow noopener noreferrer">Fullstack Academy</a> in Chicago to better learn full-stack development. I work there now as a teaching fellow helping bootcamp students learn JavaScript.</p>
+            <p>After honing my front-end skills at <a href="https://www.accuraty.com" target="_blank" rel="nofollow noopener noreferrer">Accuraty Solutions</a>, I attended <a href="https://www.fullstackacademy.com" target="_blank" rel="nofollow noopener noreferrer">Fullstack Academy</a> in Chicago to better learn full-stack development. I work there now as a teaching fellow helping bootcamp students learn JavaScript.</p>
 
-              <p>When I'm not <Secret onMouseEnter={() => this.showHidden('computer')} onMouseLeave={this.hideHidden}>messing around</Secret> with new CSS features, I like to <Secret onMouseEnter={() => this.showHidden('reading')} onMouseLeave={this.hideHidden}>read books</Secret>, listen to podcasts, <Secret onMouseEnter={() => this.showHidden('keyboard')} onMouseLeave={this.hideHidden}>play music</Secret>, and catch up on TV shows I forgot to watch.</p>
-            </ContentStyles>
-          </HalfGrid>
-          <HalfGrid>
-            <MyFigure ref={this.figure}>
-              <img
-                src={this.state.imgUrl}
-                className="chris-img"
-                alt="Chris Lusk"
-              />
-              <img
-                src={this.state.hiddenImgUrl}
-                className="hidden-img"
-                alt=""
-              />
-            </MyFigure>
-          </HalfGrid>
-        </SectionStyles>
-      </Fragment>
-    );
-  }
+            <p>When I'm not <Secret onMouseEnter={() => showSecretImg('computer')} onMouseLeave={hideSecretImg}>messing around</Secret> with new CSS features, I like to <Secret onMouseEnter={() => showSecretImg('reading')} onMouseLeave={hideSecretImg}>read books</Secret>, listen to podcasts, <Secret onMouseEnter={() => showSecretImg('keyboard')} onMouseLeave={hideSecretImg}>play music</Secret>, and catch up on TV shows I forgot to watch.</p>
+          </ContentStyles>
+        </HalfGrid>
+        <HalfGrid>
+          <MyFigure ref={figure}>
+            <img
+              src={MY_IMG_URL}
+              className="chris-img"
+              alt="Chris Lusk"
+            />
+            <img
+              src={imgUrl}
+              className="hidden-img"
+              alt="Cat gif"
+            />
+          </MyFigure>
+        </HalfGrid>
+      </SectionStyles>
+    </Fragment>
+  );
 };
 
 export default AboutMe;

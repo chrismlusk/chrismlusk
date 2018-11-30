@@ -1,4 +1,3 @@
-import React from 'react';
 import SingleProject from './SingleProject';
 import {
   SectionStyles,

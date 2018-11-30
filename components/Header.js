@@ -1,16 +1,11 @@
-import React from 'react';
-import Router from 'next/router';
 import styled from 'styled-components';
 import Navbar from './Navbar';
 import { ContainerStyles } from './styles';
 
-// Router.events.on('routeChangeStart', () => console.log('routeChangeStart'));
-// Router.events.on('routeChangeComplete', () => console.log('routeChangeDone'));
-// Router.events.on('routeChangeError', () => console.log('routeChangeErr'));
-
 const HeaderStyles = styled.header`
-  display: flex;
   align-items: center;
+  background-color: rgba(255, 255, 255, .96);
+  display: flex;
   justify-content: space-between;
   position: fixed;
   width: 100%;
