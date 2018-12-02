@@ -26,6 +26,17 @@ const NavLogoStyles = styled.div`
       fill: ${({ theme }) => theme.color.gray600};
     }
   }
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+  }
 `;
 
 const NavListStyles = styled.ul`
@@ -123,7 +134,10 @@ const NavbarStyles = styled.nav`
 const NavLogo = () => (
   <NavLogoStyles>
     <Link href="/">
-      <a><Logo /></a>
+      <a aria-label="Go back to the homepage">
+        <Logo />
+        <h1 className="sr-only">Chris Lusk </h1>
+      </a>
     </Link>
   </NavLogoStyles>
 );
