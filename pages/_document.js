@@ -77,8 +77,8 @@ export default class MyDocument extends Document {
           <NextScript />
           {this.props.isProduction && (
             <Fragment>
-              <script async src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ID}`} />
-              <script dangerouslySetInnerHTML={this.setGoogleTags()} />
+              <script src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ID}`} defer/>
+              <script dangerouslySetInnerHTML={this.setGoogleTags()} defer/>
             </Fragment>
           )}
         </body>
