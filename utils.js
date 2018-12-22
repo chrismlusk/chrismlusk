@@ -6,6 +6,6 @@ export function trackPageView(url) {
       page_location: url
     });
   } catch (err) {
-    console.error(err);
+    console.warn(err);
   }
 }
