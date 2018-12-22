@@ -75,7 +75,7 @@ const HireMe = () => (
         </ul>
 
         <h2>When</h2>
-        <p>I am available December 2018.</p>
+        <p>I am available January 2019.</p>
 
         <h2>Where</h2>
         <p>Chicago, Illinois. I am open to remote positions.</p>
