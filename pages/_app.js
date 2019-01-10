@@ -14,7 +14,9 @@ class MyApp extends App {
   }
 
   componentDidMount() {
-    Router.events.on('routeChangeComplete', url => trackPageView(url));
+    if (process.env.NODE_ENV === 'production') {
+      Router.events.on('routeChangeComplete', url => trackPageView(url));
+    }
   }
 
   render() {
