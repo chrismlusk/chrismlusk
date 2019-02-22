@@ -4,7 +4,7 @@ import { ContainerStyles } from './styles';
 
 const HeaderStyles = styled.header`
   align-items: center;
-  background-color: rgba(255, 255, 255, .96);
+  background-color: rgba(255, 255, 255, 0.96);
   display: flex;
   justify-content: space-between;
   position: fixed;

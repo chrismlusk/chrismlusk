@@ -15,7 +15,7 @@ const Project = styled.div`
 
   &:hover > div {
     transform: translateY(-5px);
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   }
 `;
 
@@ -28,7 +28,10 @@ const ProjectInner = styled.div`
   background-color: ${({ theme }) => theme.color.gray200};
   padding: 1.5rem;
   border-radius: 2px;
-  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  transition-property: box-shadow, transform;
+  transition-duration: calc(${({ theme }) => theme.transition.duration} * 2);
+  transition-timing-function: ${({ theme }) => theme.transition.timingFunction};
+  will-change: box-shadow, transform;
 `;
 
 const ProjectHeader = styled.div`
@@ -87,8 +90,8 @@ const ProjectFooter = styled.div`
 
     li {
       font-family: ${({ theme }) => theme.fontFamily.mono};
-      font-size: .75em;
-      margin-right: .875rem;
+      font-size: 0.75em;
+      margin-right: 0.875rem;
 
       &:last-of-type {
         margin-right: 0;
@@ -101,15 +104,25 @@ const SingleProject = ({ project, number }) => (
   <Project>
     <ProjectInner>
       <ProjectHeader>
-        <ProjectNumber>{`${(`0${number + 1}`).slice(-2)}.`}</ProjectNumber>
+        <ProjectNumber>{`${`0${number + 1}`.slice(-2)}.`}</ProjectNumber>
         <ProjectIcons>
           {project.demo && (
-            <a href={project.demo} target="_blank" rel="nofollow noopener noreferrer" aria-label="External link">
+            <a
+              href={project.demo}
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              aria-label="External link"
+            >
               <External />
             </a>
           )}
           {project.github && (
-            <a href={project.github} target="_blank" rel="nofollow noopener noreferrer" aria-label="GitHub">
+            <a
+              href={project.github}
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              aria-label="GitHub"
+            >
               <GitHub />
             </a>
           )}
@@ -121,7 +134,9 @@ const SingleProject = ({ project, number }) => (
       </ProjectBody>
       <ProjectFooter>
         <ul>
-          {project.tech.map(t => <li key={t}>{t}</li>)}
+          {project.tech.map(t => (
+            <li key={t}>{t}</li>
+          ))}
         </ul>
       </ProjectFooter>
     </ProjectInner>

@@ -1,7 +1,5 @@
 import { Welcome } from '../components';
 
-const Home = () => (
-  <Welcome />
-);
+const Home = () => <Welcome />;
 
 export default Home;

@@ -1,7 +1,5 @@
 import { AboutMe } from '../components';
 
-const About = () => (
-  <AboutMe />
-);
+const About = () => <AboutMe />;
 
 export default About;

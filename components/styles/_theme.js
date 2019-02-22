@@ -1,6 +1,5 @@
 const _ = {}; // theme object
 
-
 // Base colors
 
 _.color = {
@@ -21,15 +20,13 @@ _.color = {
   green: `#1db02f` // or try 1db06a
 };
 
-
 // Theme colors
 
-_.primary =                 _.color.red;
-_.secondary =               _.color.gray600;
-_.success =                 _.color.green;
-_.light =                   _.color.gray100;
-_.dark =                    _.color.gray800;
-
+_.primary = _.color.red;
+_.secondary = _.color.gray600;
+_.success = _.color.green;
+_.light = _.color.gray100;
+_.dark = _.color.gray800;
 
 // Body
 
@@ -38,26 +35,23 @@ _.body = {
   color: _.color.gray800
 };
 
-
 // Grid breakpoints
 
 _.breakpoint = {
-  xs:  `0`,
-  sm:  `576px`,
-  md:  `768px`,
-  lg:  `992px`,
-  xl:  `1200px`
+  xs: `0`,
+  sm: `576px`,
+  md: `768px`,
+  lg: `992px`,
+  xl: `1200px`
 };
-
 
 // Components
 
 _.transition = {
-  speed: `116ms`,
-  easing: `ease-in-out`,
-  base: `all 116ms ease-in-out`
+  duration: `116ms`,
+  timingFunction: `cubic-bezier(.165, .84, .44, 1)`,
+  base: `all 116ms cubic-bezier(.165, .84, .44, 1)`
 };
-
 
 // Typography
 
@@ -66,6 +60,5 @@ _.fontFamily = {
   serif: `Georgia, serif`,
   mono: `'SF Mono', 'Fira Mono', 'Roboto Mono', Monaco, monospace;`
 };
-
 
 export default _;

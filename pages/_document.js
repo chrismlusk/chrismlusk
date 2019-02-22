@@ -19,7 +19,7 @@ export default class MyDocument extends Document {
 
   setGoogleTags() {
     return {
-      __html:`
+      __html: `
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
@@ -32,53 +32,56 @@ export default class MyDocument extends Document {
     return (
       <html lang="en">
         <Head>
-          <style dangerouslySetInnerHTML={{__html:`
-            @font-face {
-              font-family: 'ATC Overlook';
-              src: url('/static/fonts/atcoverlook-bold.woff2') format('woff2'),
-                   url('/static/fonts/atcoverlook-bold.woff') format('woff');
-              font-weight: 700;
-              font-style: normal;
-            }
+          <style
+            dangerouslySetInnerHTML={{
+              __html: `
+                @font-face {
+                  font-family: 'ATC Overlook';
+                  src: url('/static/fonts/atcoverlook-bold.woff2') format('woff2'),
+                      url('/static/fonts/atcoverlook-bold.woff') format('woff');
+                  font-weight: 700;
+                  font-style: normal;
+                }
 
-            @font-face {
-              font-family: 'ATC Overlook';
-              src: url('/static/fonts/atcoverlook-regular.woff2') format('woff2'),
-                   url('/static/fonts/atcoverlook-regular.woff') format('woff');
-              font-weight: normal;
-              font-style: normal;
-            }
+                @font-face {
+                  font-family: 'ATC Overlook';
+                  src: url('/static/fonts/atcoverlook-regular.woff2') format('woff2'),
+                      url('/static/fonts/atcoverlook-regular.woff') format('woff');
+                  font-weight: normal;
+                  font-style: normal;
+                }
 
-            @font-face {
-              font-family: 'ATC Overlook';
-              src: url('/static/fonts/atcoverlook-thin.woff2') format('woff2'),
-                   url('/static/fonts/atcoverlook-thin.woff') format('woff');
-              font-weight: 300;
-              font-style: normal;
-            }
+                @font-face {
+                  font-family: 'ATC Overlook';
+                  src: url('/static/fonts/atcoverlook-thin.woff2') format('woff2'),
+                      url('/static/fonts/atcoverlook-thin.woff') format('woff');
+                  font-weight: 300;
+                  font-style: normal;
+                }
 
-            @font-face {
-              font-family: 'Fira Mono';
-              src: url('/static/fonts/firamono-regular.woff2') format('woff2'),
-                   url('/static/fonts/firamono-regular.woff') format('woff');
-              font-weight: normal;
-              font-style: normal;
-            }
-          `}}/>
-          {this.props.styleTags}
-          <link
-            rel="preload"
-            href={MY_IMG_URL}
-            as="image"
+                @font-face {
+                  font-family: 'Fira Mono';
+                  src: url('/static/fonts/firamono-regular.woff2') format('woff2'),
+                      url('/static/fonts/firamono-regular.woff') format('woff');
+                  font-weight: normal;
+                  font-style: normal;
+                }
+              `
+            }}
           />
+          {this.props.styleTags}
+          <link rel="preload" href={MY_IMG_URL} as="image" />
         </Head>
         <body>
           <Main />
           <NextScript />
           {this.props.isProduction && (
             <Fragment>
-              <script src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ID}`} defer/>
-              <script dangerouslySetInnerHTML={this.setGoogleTags()} defer/>
+              <script
+                src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ID}`}
+                defer
+              />
+              <script dangerouslySetInnerHTML={this.setGoogleTags()} defer />
             </Fragment>
           )}
         </body>

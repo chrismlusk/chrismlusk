@@ -8,8 +8,8 @@ const SocialLinks = styled.div`
   @media (min-width: ${({ theme }) => theme.breakpoint.md}) {
     display: block;
     position: fixed;
-      right: 2rem;
-      bottom: 0;
+    right: 2rem;
+    bottom: 0;
     width: 2.5rem;
     z-index: 9;
   }
@@ -32,7 +32,6 @@ const SocialList = styled.ul`
 `;
 
 const SocialItem = styled.li`
-
   &:last-of-type {
     @media (min-width: ${({ theme }) => theme.breakpoint.md}) {
       margin-bottom: 1rem;
@@ -49,7 +48,7 @@ const SocialItem = styled.li`
     height: 3rem;
 
     @media (min-width: ${({ theme }) => theme.breakpoint.md}) {
-      padding: .5rem;
+      padding: 0.5rem;
       width: 2.5rem;
       height: 2.5rem;
     }
@@ -61,10 +60,10 @@ const SocialItem = styled.li`
       display: block;
       opacity: 0;
       position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
     }
 
     &:hover {
@@ -90,8 +89,8 @@ const SocialItem = styled.li`
 
 const FooterStyles = styled.footer`
   align-items: center;
-  background-color: ${({theme}) => theme.color.gray100};
-  color: ${({theme}) => theme.color.gray600};
+  background-color: ${({ theme }) => theme.color.gray100};
+  color: ${({ theme }) => theme.color.gray600};
   display: flex;
   min-height: 6rem;
 
@@ -100,8 +99,8 @@ const FooterStyles = styled.footer`
   }
 
   p {
-    font-size: .75rem;
-    margin: .5em 0 .25em;
+    font-size: 0.75rem;
+    margin: 0.5em 0 0.25em;
   }
 `;
 
@@ -109,22 +108,46 @@ const FooterLinks = () => (
   <SocialLinks>
     <SocialList>
       <SocialItem>
-        <a href="https://github.com/chrismlusk" target="_blank" rel="nofollow noopener noreferrer" aria-label="GitHub" className="social-link">
+        <a
+          href="https://github.com/chrismlusk"
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+          aria-label="GitHub"
+          className="social-link"
+        >
           <GitHub />
         </a>
       </SocialItem>
       <SocialItem>
-        <a href="https://linkedin.com/in/chrismlusk" target="_blank" rel="nofollow noopener noreferrer" aria-label="LinkedIn" className="social-link">
+        <a
+          href="https://linkedin.com/in/chrismlusk"
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+          aria-label="LinkedIn"
+          className="social-link"
+        >
           <LinkedIn />
         </a>
       </SocialItem>
       <SocialItem>
-        <a href="https://instagram.com/chrismlusk" target="_blank" rel="nofollow noopener noreferrer" aria-label="Instagram" className="social-link">
+        <a
+          href="https://instagram.com/chrismlusk"
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+          aria-label="Instagram"
+          className="social-link"
+        >
           <Instagram />
         </a>
       </SocialItem>
       <SocialItem>
-        <a href="https://twitter.com/chrismlusk" target="_blank" rel="nofollow noopener noreferrer" aria-label="Twitter" className="social-link">
+        <a
+          href="https://twitter.com/chrismlusk"
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+          aria-label="Twitter"
+          className="social-link"
+        >
           <Twitter />
         </a>
       </SocialItem>
@@ -136,7 +159,7 @@ const Footer = () => (
   <FooterStyles>
     <ContainerStyles>
       <FooterLinks />
-      <p>&copy; {(new Date()).getFullYear()} by Chris Lusk</p>
+      <p>&copy; {new Date().getFullYear()} by Chris Lusk</p>
     </ContainerStyles>
   </FooterStyles>
 );

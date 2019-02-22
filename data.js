@@ -1,4 +1,3 @@
-
 export const projectData = [
   // {
   //   name: ``,
@@ -58,7 +57,8 @@ export const projectData = [
     name: `Illinois Law Review`,
     description: `A digital presentation of the law journal's First 100 Day symposium, a collection of essays about the Trump Administration. I was also the sole developer of the website.`,
     demo: 'https://illinoislawreview.org/first-100-days',
-    github: 'https://github.com/UIllLRev/lawreview2016-theme/tree/master/first-100-days',
+    github:
+      'https://github.com/UIllLRev/lawreview2016-theme/tree/master/first-100-days',
     tech: ['WordPress', 'Sass', 'JavaScript', 'Animation']
   },
 
@@ -75,6 +75,5 @@ export const projectData = [
     demo: 'http://projects.nyujournalism.org/newsliteracy2016',
     github: 'https://github.com/chrismlusk/lit-pro',
     tech: ['WordPress', 'HTML/CSS', 'JavaScript']
-  },
-
+  }
 ];

@@ -1,11 +1,6 @@
 import Link from 'next/link';
 import styled from 'styled-components';
-import {
-  SectionStyles,
-  FullGrid,
-  ContentStyles,
-  Button
-} from './styles';
+import { SectionStyles, FullGrid, ContentStyles, Button } from './styles';
 
 const WelcomeStyles = styled(ContentStyles)`
   max-width: 380px;
@@ -71,13 +66,25 @@ const Welcome = () => (
         </MyTitle>
         <MyBlurb>
           I'm a full-stack software developer based in Chicago who enjoys
-          working at the intersection of engineering and design. I am looking
-          for my next opportunity.
+          working at the intersection of engineering and design, and I work at{' '}
+          <a
+            href="https://onedesigncompany.com"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+          >
+            One Design Company
+          </a>
+          .
         </MyBlurb>
         <MyButton>
-          <Link prefetch href="/hire-me">
-            <a className="button">Hire Me</a>
-          </Link>
+          <a
+            className="button"
+            href="/static/resume.pdf"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+          >
+            Resume
+          </a>
         </MyButton>
       </WelcomeStyles>
     </FullGrid>

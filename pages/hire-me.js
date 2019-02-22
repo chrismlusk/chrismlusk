@@ -20,14 +20,14 @@ const Wave = styled.span`
     cursor: default;
     opacity: 0;
     position: absolute;
-      top: 50%;
-      right: 0;
+    top: 50%;
+    right: 0;
     transform: translate3d(-5rem, -50%, 0);
     transition: ${({ theme }) => theme.transition.base};
   }
 
   .wave-icon {
-    font-size: .875em;
+    font-size: 0.875em;
     display: block;
     transform-origin: 50% 90%;
   }
@@ -61,7 +61,11 @@ const HireMe = () => (
             </span>
           </Wave>
         </h1>
-        <LeadBlurb>I'm a full-stack software developer who enjoys working at the intersection of engineering and design. I'm ready for a new opportunity. Let's work together!</LeadBlurb>
+        <LeadBlurb>
+          I'm a full-stack software developer who enjoys working at the
+          intersection of engineering and design. I'm ready for a new
+          opportunity. Let's work together!
+        </LeadBlurb>
         <h2>What</h2>
         <p>I'm looking for a full-stack engineering role.</p>
         <p>Ideally you:</p>
@@ -81,11 +85,35 @@ const HireMe = () => (
         <p>Chicago, Illinois. I am open to remote positions.</p>
 
         <h2>Why</h2>
-        <p>I'm a developer with experience throughout the whole stack. I value pair programming and mentoring, so collaboration with colleagues is essential to me. I have a deep understanding of design, and I care about building intuitive user experiences. I enjoy writing CSS. I believe accessibility and performance are vital because the internet should be available to everyone. I love learning new technologies, but we should be more concerned with choosing the right tool for the job.</p>
+        <p>
+          I'm a developer with experience throughout the whole stack. I value
+          pair programming and mentoring, so collaboration with colleagues is
+          essential to me. I have a deep understanding of design, and I care
+          about building intuitive user experiences. I enjoy writing CSS. I
+          believe accessibility and performance are vital because the internet
+          should be available to everyone. I love learning new technologies, but
+          we should be more concerned with choosing the right tool for the job.
+        </p>
 
-        <p>I have experience working with JavaScript, CSS/Sass, React, Redux, Node, Express, and more.</p>
-        <p>If you think I would be a good fit for your team, please email me at chrismlusk[at]gmail.com.</p>
-        <p>For more details about my past work, please see my <a href="/static/resume.pdf" target="_blank" rel="nofollow noopener noreferrer">resume</a>.</p>
+        <p>
+          I have experience working with JavaScript, CSS/Sass, React, Redux,
+          Node, Express, and more.
+        </p>
+        <p>
+          If you think I would be a good fit for your team, please email me at
+          chrismlusk[at]gmail.com.
+        </p>
+        <p>
+          For more details about my past work, please see my{' '}
+          <a
+            href="/static/resume.pdf"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+          >
+            resume
+          </a>
+          .
+        </p>
       </ContentStyles>
     </FullGrid>
   </SectionStyles>

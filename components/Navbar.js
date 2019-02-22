@@ -11,10 +11,13 @@ const NavLogoStyles = styled.div`
   }
 
   svg {
-    fill: ${({ theme }) => theme.body.color};
-    transition: ${({ theme }) => theme.transition.base};
     width: 2rem;
     height: 2rem;
+    fill: ${({ theme }) => theme.body.color};
+    transition-property: fill;
+    transition-duration: ${({ theme }) => theme.transition.duration};
+    transition-timing-function: ${({ theme }) =>
+    theme.transition.timingFunction};
 
     @media (min-width: ${({ theme }) => theme.breakpoint.md}) {
       width: 2.5rem;
@@ -33,7 +36,7 @@ const NavLogoStyles = styled.div`
     height: 1px;
     padding: 0;
     overflow: hidden;
-    clip: rect(0,0,0,0);
+    clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border: 0;
   }
@@ -57,7 +60,7 @@ const NavListStyles = styled.ul`
   }
 
   a {
-    padding: .75rem 1rem;
+    padding: 0.75rem 1rem;
     display: block;
     position: relative;
     color: ${({ theme }) => theme.color.gray700};
@@ -72,7 +75,7 @@ const NavListStyles = styled.ul`
       span::after {
         background-color: ${({ theme }) => theme.primary};
         transform: scaleX(1);
-        transition: transform .2s ease-in-out;
+        transition: transform 0.2s ease-in-out;
       }
     }
 
@@ -84,21 +87,21 @@ const NavListStyles = styled.ul`
     span {
       position: relative;
       overflow: hidden;
-      padding: 0 .25rem;
+      padding: 0 0.25rem;
       display: block;
 
       &::after {
-          background-color: transparent;
-          content: "";
-          height: 2px;
-          margin-top: -2px;
-          position: absolute;
-            top: 50%;
-            left: 0;
-          transform: scale3d(0,0,0);
-          transform-origin: left;
-          width: 100%;
-          will-change: transform;
+        background-color: transparent;
+        content: '';
+        height: 2px;
+        margin-top: -2px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: scale3d(0, 0, 0);
+        transform-origin: left;
+        width: 100%;
+        will-change: transform;
       }
     }
   }
@@ -108,7 +111,7 @@ const NavButtonStyles = styled(Button)`
   margin-left: 1.25rem;
 
   a {
-    padding: .75rem 1rem;
+    padding: 0.75rem 1rem;
     font-size: inherit;
     font-weight: inherit;
     letter-spacing: inherit;
@@ -120,7 +123,7 @@ const NavbarStyles = styled.nav`
   align-items: center;
   display: flex;
   counter-reset: item 0;
-  font-size: .875rem;
+  font-size: 0.875rem;
   font-weight: 700;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
@@ -154,22 +157,30 @@ const NavList = () => (
   <NavListStyles>
     <li>
       <NavLink prefetch href="/">
-        <a><span>Home</span></a>
+        <a>
+          <span>Home</span>
+        </a>
       </NavLink>
     </li>
     <li>
       <NavLink prefetch href="/about">
-        <a><span>About</span></a>
+        <a>
+          <span>About</span>
+        </a>
       </NavLink>
     </li>
     <li>
       <NavLink prefetch href="/projects">
-        <a><span>Projects</span></a>
+        <a>
+          <span>Projects</span>
+        </a>
       </NavLink>
     </li>
     <li>
       <NavLink prefetch href="/contact">
-        <a><span>Contact</span></a>
+        <a>
+          <span>Contact</span>
+        </a>
       </NavLink>
     </li>
   </NavListStyles>
@@ -191,7 +202,6 @@ const Navbar = () => (
   <NavbarStyles>
     <NavLogo />
     <NavList />
-    <NavButton />
   </NavbarStyles>
 );
 

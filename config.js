@@ -7,7 +7,7 @@ export const DEFAULT_SEO = {
     locale: 'en_US',
     url: 'https://www.chrismlusk.com',
     title: 'Chris Lusk | Software Developer',
-    description: `software developer based in Chicago who enjoys working at the intersection of engineering and design.`,
+    description: `Software developer based in Chicago who enjoys working at the intersection of engineering and design.`,
     site_name: 'chrismlusk.com'
   },
   twitter: {

@@ -23,9 +23,7 @@ const MainContainer = styled(ContainerStyles)`
 
 const Main = props => (
   <MainStyles>
-    <MainContainer>
-      {props.children}
-    </MainContainer>
+    <MainContainer>{props.children}</MainContainer>
   </MainStyles>
 );
 

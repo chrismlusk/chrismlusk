@@ -13,7 +13,7 @@ const Button = styled.div`
     font-size: 1em;
     font-weight: 700;
     line-height: 1.5;
-    padding: .75rem 1.5rem;
+    padding: 0.75rem 1.5rem;
 
     &:hover,
     &:focus {
@@ -22,7 +22,7 @@ const Button = styled.div`
     }
 
     &:active {
-      transform: scale(.99) translateY(1px);
+      transform: scale(0.99) translateY(1px);
     }
   }
 `;

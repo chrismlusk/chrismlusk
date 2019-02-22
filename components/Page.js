@@ -12,9 +12,7 @@ const Page = props => (
       <GlobalStyles />
       <Meta />
       <Header />
-      <Main>
-        {props.children}
-      </Main>
+      <Main>{props.children}</Main>
       <Footer />
     </Fragment>
   </ThemeProvider>

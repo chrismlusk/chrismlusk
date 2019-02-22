@@ -43,7 +43,7 @@ const ContentStyles = styled.div`
     list-style: disc outside;
 
     li + li {
-      margin-top: .25em;
+      margin-top: 0.25em;
     }
   }
 
@@ -57,7 +57,7 @@ const ContentStyles = styled.div`
 
     &:active {
       color: ${({ theme }) => theme.body.color};
-      background-color: rgba(0, 0, 0, .08);
+      background-color: rgba(0, 0, 0, 0.08);
     }
   }
 `;
