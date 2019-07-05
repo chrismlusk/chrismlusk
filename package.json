@@ -13,7 +13,7 @@
   "author": "Chris Lusk",
   "license": "ISC",
   "dependencies": {
-    "next": "^8.0.3",
+    "next": "^8.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "styled-components": "^4.1.3"
