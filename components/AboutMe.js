@@ -137,7 +137,7 @@ const AboutMe = () => {
               >
                 play music
               </Secret>
-              , and catch up on TV shows I forgot to watch.
+              , and catch up on TV shows you've already watched.
             </p>
           </ContentStyles>
         </HalfGrid>

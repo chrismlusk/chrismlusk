@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import styled from 'styled-components';
 import { SectionStyles, FullGrid, ContentStyles, Button } from './styles';
 

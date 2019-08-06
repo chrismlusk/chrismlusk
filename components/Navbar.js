@@ -17,7 +17,7 @@ const NavLogoStyles = styled.div`
     transition-property: fill;
     transition-duration: ${({ theme }) => theme.transition.duration};
     transition-timing-function: ${({ theme }) =>
-    theme.transition.timingFunction};
+      theme.transition.timingFunction};
 
     @media (min-width: ${({ theme }) => theme.breakpoint.md}) {
       width: 2.5rem;
@@ -139,7 +139,7 @@ const NavLogo = () => (
     <Link href="/">
       <a aria-label="Go back to the homepage">
         <Logo />
-        <h1 className="sr-only">Chris Lusk </h1>
+        <h1 className="sr-only">Chris Lusk</h1>
       </a>
     </Link>
   </NavLogoStyles>
