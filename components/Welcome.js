@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { SectionStyles, FullGrid, ContentStyles, Button } from './styles';
+import { SectionStyles, FullGrid, ContentStyles } from './styles';
 
 const WelcomeStyles = styled(ContentStyles)`
   max-width: 380px;
@@ -48,14 +48,6 @@ const MyBlurb = styled.p`
   }
 `;
 
-const MyButton = styled(Button)`
-  margin-top: 2rem;
-
-  @media (min-width: ${({ theme }) => theme.breakpoint.md}) {
-    margin-top: 3rem;
-  }
-`;
-
 const Welcome = () => (
   <SectionStyles id="welcome">
     <FullGrid>
@@ -64,8 +56,8 @@ const Welcome = () => (
           Hi, my name is <span>Chris Lusk</span>. I build things for people.
         </MyTitle>
         <MyBlurb>
-          I'm a full-stack software developer based in Chicago who enjoys
-          working at the intersection of engineering and design, and I work at{' '}
+          I'm a web developer based in Chicago who enjoys thinking about
+          accessibility and progressive enhancement, and I work at{' '}
           <a
             href="https://onedesigncompany.com"
             target="_blank"
@@ -75,16 +67,6 @@ const Welcome = () => (
           </a>
           .
         </MyBlurb>
-        <MyButton>
-          <a
-            className="button"
-            href="/static/resume.pdf"
-            target="_blank"
-            rel="nofollow noopener noreferrer"
-          >
-            Resume
-          </a>
-        </MyButton>
       </WelcomeStyles>
     </FullGrid>
   </SectionStyles>

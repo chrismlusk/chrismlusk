@@ -156,28 +156,28 @@ const NavLink = withRouter(({ router, children, ...props }) => (
 const NavList = () => (
   <NavListStyles>
     <li>
-      <NavLink prefetch href="/">
+      <NavLink href="/">
         <a>
           <span>Home</span>
         </a>
       </NavLink>
     </li>
     <li>
-      <NavLink prefetch href="/about">
+      <NavLink href="/about">
         <a>
           <span>About</span>
         </a>
       </NavLink>
     </li>
     <li>
-      <NavLink prefetch href="/projects">
+      <NavLink href="/projects">
         <a>
           <span>Projects</span>
         </a>
       </NavLink>
     </li>
     <li>
-      <NavLink prefetch href="/contact">
+      <NavLink href="/contact">
         <a>
           <span>Contact</span>
         </a>
@@ -188,11 +188,7 @@ const NavList = () => (
 
 const NavButton = () => (
   <NavButtonStyles>
-    <a
-      href="/static/resume.pdf"
-      target="_blank"
-      rel="nofollow noopener noreferrer"
-    >
+    <a href="/resume.pdf" target="_blank" rel="nofollow noopener noreferrer">
       Resume
     </a>
   </NavButtonStyles>
@@ -202,6 +198,7 @@ const Navbar = () => (
   <NavbarStyles>
     <NavLogo />
     <NavList />
+    <NavButton />
   </NavbarStyles>
 );
 

@@ -13,10 +13,10 @@
   "author": "Chris Lusk",
   "license": "ISC",
   "dependencies": {
-    "next": "^9.0.3",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "styled-components": "^4.3.2"
+    "next": "^9.1.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^4.4.1"
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.10.6"

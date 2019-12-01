@@ -106,7 +106,7 @@ const HireMe = () => (
         <p>
           For more details about my past work, please see my{' '}
           <a
-            href="/static/resume.pdf"
+            href="/resume.pdf"
             target="_blank"
             rel="nofollow noopener noreferrer"
           >
