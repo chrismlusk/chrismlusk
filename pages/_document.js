@@ -37,6 +37,7 @@ export default class MyDocument extends Document {
               __html: `
                 @font-face {
                   font-family: 'ATC Overlook';
+                  font-display: swap;
                   src: url('/fonts/atcoverlook-bold.woff2') format('woff2'),
                       url('/fonts/atcoverlook-bold.woff') format('woff');
                   font-weight: 700;
@@ -45,6 +46,7 @@ export default class MyDocument extends Document {
 
                 @font-face {
                   font-family: 'ATC Overlook';
+                  font-display: swap;
                   src: url('/fonts/atcoverlook-regular.woff2') format('woff2'),
                       url('/fonts/atcoverlook-regular.woff') format('woff');
                   font-weight: normal;
@@ -53,6 +55,7 @@ export default class MyDocument extends Document {
 
                 @font-face {
                   font-family: 'ATC Overlook';
+                  font-display: swap;
                   src: url('/fonts/atcoverlook-thin.woff2') format('woff2'),
                       url('/fonts/atcoverlook-thin.woff') format('woff');
                   font-weight: 300;
@@ -61,6 +64,7 @@ export default class MyDocument extends Document {
 
                 @font-face {
                   font-family: 'Fira Mono';
+                  font-display: swap;
                   src: url('/fonts/firamono-regular.woff2') format('woff2'),
                       url('/fonts/firamono-regular.woff') format('woff');
                   font-weight: normal;
