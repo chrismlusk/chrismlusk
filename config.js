@@ -8,7 +8,7 @@ export const DEFAULT_SEO = {
     url: 'https://www.chrismlusk.com',
     title: 'Chris Lusk | Software Developer',
     description: `Software developer based in Chicago who enjoys working at the intersection of engineering and design.`,
-    site_name: 'chrismlusk.com'
+    site_name: 'Chris Lusk'
   },
   twitter: {
     handle: '@chrismlusk',
@@ -18,4 +18,4 @@ export const DEFAULT_SEO = {
 
 export const GOOGLE_ID = 'UA-129304778-1';
 
-export const MY_IMG_URL = '/static/images/me_2018_bw.jpg';
+export const MY_IMG_URL = '/images/me_2018_bw.jpg';

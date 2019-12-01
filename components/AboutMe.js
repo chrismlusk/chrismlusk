@@ -42,10 +42,10 @@ const Secret = styled.span`
 const AboutMe = () => {
   const figure = useRef(null);
 
-  const [imgUrl, setImgUrl] = useState('/static/images/computer-cat.gif');
+  const [imgUrl, setImgUrl] = useState('/images/computer-cat.gif');
 
   const showSecretImg = type => {
-    setImgUrl(`/static/images/${type}-cat.gif`);
+    setImgUrl(`/images/${type}-cat.gif`);
     figure.current.classList.add('show-hidden');
   };
 
@@ -57,9 +57,9 @@ const AboutMe = () => {
   return (
     <Fragment>
       <Head>
-        <link rel="preload" href="/static/images/computer-cat.gif" as="image" />
-        <link rel="preload" href="/static/images/keyboard-cat.gif" as="image" />
-        <link rel="preload" href="/static/images/reading-cat.gif" as="image" />
+        <link rel="prefetch" href="/images/computer-cat.gif" as="image" />
+        <link rel="prefetch" href="/images/keyboard-cat.gif" as="image" />
+        <link rel="prefetch" href="/images/reading-cat.gif" as="image" />
       </Head>
       <SectionStyles id="about">
         <FullGrid>
@@ -104,7 +104,7 @@ const AboutMe = () => {
                 Fullstack Academy
               </a>{' '}
               in Chicago to better learn full-stack development, and I now work
-              as a developer at{' '}
+              as a senior developer at{' '}
               <a
                 href="https://onedesigncompany.com"
                 target="_blank"
