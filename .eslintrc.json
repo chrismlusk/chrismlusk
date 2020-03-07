@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "prettier",
+    "prettier/react"
+  ],
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "react/no-unescaped-entities": 0,
+    "react/prop-types": 0
+  },
+  "plugins": [
+    "react"
+  ]
+}
