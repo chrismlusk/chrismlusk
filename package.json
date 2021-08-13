@@ -19,7 +19,7 @@
     "not op_mini all"
   ],
   "dependencies": {
-    "next": "^9.2.2",
+    "next": "^11.1.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "styled-components": "^5.3.0"
